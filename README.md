@@ -17,6 +17,20 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
+### Versión 0.19.0 (efecto de profundidad) · la actual
+
+![Fondo en capas e ilustración del editor vacío](docs/captura-v0.19-profundidad.png)
+
+Novedad de la 0.19.0: **efecto de profundidad (parallax)**, como el fondo de pantalla del iPhone. Al mover el ratón:
+
+- **El fondo se mueve en capas**: detrás de los paneles de cristal hay unas luces azules e índigo muy suaves en dos capas. Se desplazan hacia el lado contrario del ratón, la cercana más que la lejana, y los paneles se quedan quietos, así que parece que flotan. Se nota sobre todo en la cabecera y en el panel lateral.
+- **El editor vacío tiene un dibujo**: dos hojas de código y una lupa encima de «Pega aquí tu código». Cada pieza está a una altura distinta y se mueve a favor del ratón (la lupa, la que más). Al pegar código desaparece.
+- **Ver › Efecto de profundidad** lo apaga si distrae (se recuerda).
+
+Sin gastar de más: solo se vuelve a pintar mientras el fondo se mueve, y en reposo va igual de rápido que antes.
+
+1197 pruebas en verde (5 nuevas).
+
 ### Versión 0.18.0 (aviso de actualizaciones)
 
 ![Aviso de versión nueva](docs/captura-v0.18-actualizacion.png)
