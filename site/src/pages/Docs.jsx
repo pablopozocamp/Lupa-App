@@ -4,7 +4,7 @@ const shortcuts = [
   ["Ctrl+K", "Paleta de comandos"],
   ["Ctrl+Mayús+J", "Abrir el modo ejercicios"],
   ["Ctrl+F5", "Ejecutar (los cinco lenguajes)"],
-  ["Mayús+F5", "Paso a paso (Java, Python y SQL)"],
+  ["Mayús+F5", "Paso a paso (los cinco lenguajes)"],
   ["Ctrl+Alt+L", "Formatear código"],
   ["Ctrl+Mayús+T", "Cambiar de tema"],
   ["F11", "Modo presentación"],

@@ -17,7 +17,21 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.15.0 (paso a paso) · la actual
+### Versión 0.16.0 (paso a paso en JavaScript y C) · la actual
+
+![Paso a paso de un programa de C](docs/captura-v0.16-paso-a-paso-c.png)
+
+Novedad de la 0.16.0: **el paso a paso ya funciona en los cinco lenguajes**, como Ejecutar y Probar. Igual que en Java, Python y SQL: el editor marca la línea, se ven las variables de cada llamada en marcha (con las recursivas esperando cada una con su valor), lo que devuelve cada función y lo que el programa ha escrito hasta ese paso.
+
+- **JavaScript**: Lupa lee el programa con **acorn** (un analizador de JavaScript muy usado, licencia MIT, que va dentro de Lupa) y, antes de cada instrucción, mete una llamada que apunta la línea y las variables que se ven desde ahí. Las funciones (también las flechas y los métodos de las clases) avisan al entrar y al salir, y cada `return` dice qué devuelve. Después lo ejecuta con Node.js o con el QuickJS incluido. `prompt()` usa lo que se escribe en «Lo que se teclea».
+- **C**: como no hay un depurador que se pueda llevar dentro, Lupa hace lo mismo con su propio lector de C: antes de cada instrucción apunta la línea y escribe cada variable según su tipo (enteros, decimales, caracteres como `'a' (97)`, textos `char nombre[20]`, arrays de números como `{3, 4}` y punteros con su dirección, sin mirar dentro). Lo que escribe `printf` se guarda, y lo que lee `scanf` sale en la salida como en una terminal. Se compila con el gcc del equipo o con el TinyCC incluido.
+- En C, si el programa falla (una división entre cero, un array fuera de su tamaño, una recursividad sin fin), la grabación se guarda igual y el último paso dice qué ha pasado y en qué línea.
+
+Para comprobar que no rompe nada, se graba paso a paso todo el código de C y JavaScript que trae Lupa: las plantillas, las soluciones de los ejercicios y el banco de fragmentos.
+
+1181 pruebas en verde (6 nuevas).
+
+### Versión 0.15.0 (paso a paso)
 
 ![Paso a paso de un factorial recursivo](docs/captura-v0.15-paso-a-paso.png)
 
@@ -407,6 +421,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-02 · Lupa 0.16.0: paso a paso en JavaScript y C
 - 2026-10-02 · Código privado: la web y las descargas pasan al repositorio público Lupa-App
 - 2026-10-02 · Lupa 0.15.0: paso a paso en Java, Python y SQL
 - 2026-10-02 · Saltos de línea: .gitattributes con LF y las pruebas que leen archivos convierten \r\n
