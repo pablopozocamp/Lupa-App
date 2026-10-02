@@ -17,7 +17,17 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.21.0 (isla dinámica, menú de iOS y novedades) · la actual
+### Versión 0.22.0 (más fluida) · la actual
+
+Novedades de la 0.22.0: **Lupa va más fluida**. Medido con un archivo de 2.800 líneas:
+
+- **Escribir sin tirones**: el minimapa solo vuelve a dibujar las líneas que cambian. Antes eran unos 50 ms (un tirón visible) tras cada pausa y con cada Intro; ahora unos 2 ms por letra y entre 5 y 8 ms por Intro.
+- **Pintar la ventana entera**: de unos 64 ms a unos 38 ms. El efecto de profundidad repinta la mitad de veces y el menú del clic derecho solo prepara el trozo de detrás que desenfoca.
+- **Lupa.exe abre en casi la mitad de tiempo** a partir de la segunda vez: la primera, Lupa prepara en segundo plano una caché de Java con sus clases ya listas (en las pruebas, de 2,4 s a 1,4 s). Si un día no vale, Java la ignora y Lupa abre como siempre.
+
+1213 pruebas en verde (11 nuevas).
+
+### Versión 0.21.0 (isla dinámica, menú de iOS y novedades)
 
 ![Aviso en la isla dinámica](docs/captura-v0.21-isla.png)
 
@@ -496,6 +506,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-02 · Lupa 0.22.0: más fluida
 - 2026-10-02 · Lupa 0.21.0: isla dinámica, menú de iOS y novedades
 - 2026-10-02 · Lupa 0.20.0: colores de acento y modo concentración
 - 2026-10-02 · Lupa 0.19.0: efecto de profundidad
