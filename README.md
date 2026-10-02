@@ -17,7 +17,21 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.19.0 (efecto de profundidad) · la actual
+### Versión 0.20.0 (colores de acento y modo concentración) · la actual
+
+![Lupa con el acento morado](docs/captura-v0.20-acento.png)
+
+Novedades de la 0.20.0, todas de aspecto:
+
+- **Colores de acento**: en **Ver › Color de acento** se elige azul, morado, verde o naranja (los colores de iOS). Cambian los botones principales, la pestaña activa, la selección, los iconos, el logo y las luces del fondo. Se recuerda.
+- **Ventanas con un zoom suave**: cada ventana aparece un poco más pequeña y transparente y llega a su sitio en 0,2 segundos, como en iOS. Se quita en **Ver › Animar al abrir ventanas**.
+- **Modo concentración** (**Ctrl+Mayús+F12**): esconde la cabecera, el panel lateral, la barra de estado y el minimapa, y deja solo el código. Con la misma tecla todo vuelve como estaba.
+- **Ventanas de abrir y guardar de Windows**: la del Explorador, en español y con el tema de Windows, en lugar de la antigua en inglés.
+- **El botón + de las pestañas ya no sale cortado.**
+
+1202 pruebas en verde (5 nuevas).
+
+### Versión 0.19.0 (efecto de profundidad)
 
 ![Fondo en capas e ilustración del editor vacío](docs/captura-v0.19-profundidad.png)
 
@@ -468,6 +482,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-02 · Lupa 0.20.0: colores de acento y modo concentración
 - 2026-10-02 · Lupa 0.19.0: efecto de profundidad
 - 2026-10-02 · Lupa 0.18.0: aviso de actualizaciones
 - 2026-10-02 · Lupa 0.17.0: exportar a PDF
