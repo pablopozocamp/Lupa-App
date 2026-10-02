@@ -17,7 +17,7 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.18.0 (aviso de actualizaciones) · la actual
+### Versión 0.18.0 (aviso de actualizaciones)
 
 ![Aviso de versión nueva](docs/captura-v0.18-actualizacion.png)
 
@@ -454,6 +454,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-02 · Lupa 0.19.0: efecto de profundidad
 - 2026-10-02 · Lupa 0.18.0: aviso de actualizaciones
 - 2026-10-02 · Lupa 0.17.0: exportar a PDF
 - 2026-10-02 · Lupa 0.16.0: paso a paso en JavaScript y C
