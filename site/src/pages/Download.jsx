@@ -24,7 +24,7 @@ const downloads = [
 ];
 
 const requirements = [
-  { label: "Versión", value: "v0.17.0" },
+  { label: "Versión", value: "v0.18.0" },
   { label: "Java", value: "Incluido (zip) o JDK 21 (.jar)" },
   { label: "Sistema", value: "Windows, macOS o Linux" },
   { label: "Precio", value: "Gratis" },
@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     q: "¿Necesito internet para usarlo?",
-    a: "No. El análisis, la corrección, el autocompletado y la explicación funcionan sin conexión. Ejecutar tampoco la necesita, y en Windows no hay que instalar nada más: Lupa lleva dentro Python, un compilador de C, JavaScript y SQL.",
+    a: "No. El análisis, la corrección, el autocompletado y la explicación funcionan sin conexión. Ejecutar tampoco la necesita, y en Windows no hay que instalar nada más: Lupa lleva dentro Python, un compilador de C, JavaScript y SQL. Lo único que usa internet, si lo hay, es mirar una vez al día si hay versión nueva (se puede quitar en Ayuda).",
   },
   {
     q: "¿Qué licencia tiene?",
@@ -59,7 +59,7 @@ export default function Download() {
       <section className="bg-grid border-b border-ink-700/70">
         <div className="mx-auto max-w-6xl px-6 py-20 text-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-ink-700 bg-ink-900/60 px-3 py-1 text-xs font-medium text-mist-300">
-            v0.17.0
+            v0.18.0
           </span>
           <h1 className="mt-4 text-4xl font-bold tracking-tight text-mist-100 sm:text-5xl">
             Descarga <span className="text-gradient">Lupa</span>

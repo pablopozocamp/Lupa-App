@@ -17,7 +17,23 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.17.0 (exportar a PDF) · la actual
+### Versión 0.18.0 (aviso de actualizaciones) · la actual
+
+![Aviso de versión nueva](docs/captura-v0.18-actualizacion.png)
+
+Novedad de la 0.18.0: **Lupa avisa cuando hay una versión nueva**. Al abrirse mira en GitHub cuál es la última versión publicada y, si es más nueva, enseña una ventana con lo que trae y tres botones:
+
+- **Descargar**: la descarga en la carpeta de Descargas con una barra de progreso (se puede cancelar). Si Lupa se abrió con `Lupa.exe` descarga `Lupa-windows.zip`; si se abrió con el jar, `Lupa.jar`. Al terminar dice cómo abrir la versión nueva y deja abrir la carpeta. La descarga se guarda primero con otro nombre y se renombra al acabar, así que nunca queda un archivo a medias.
+- **Ahora no**: se vuelve a avisar otro día.
+- **Saltar esta versión**: no se vuelve a avisar de esa versión al abrir.
+
+Para no molestar: se mira como mucho una vez al día, en segundo plano, y el aviso espera a que no haya otra ventana encima (la bienvenida, la de recuperar lo no guardado…). Sin conexión no pasa nada. Lo único que se envía es la consulta a la API pública de GitHub: nada del usuario ni de su código.
+
+Nuevo menú **Ayuda**: **Buscar actualizaciones…** (siempre dice algo: si hay versión nueva, si ya tienes la última o si no hay conexión) y la casilla **Buscar actualizaciones al abrir Lupa**, para quitarlo.
+
+1192 pruebas en verde (4 nuevas): se lee una respuesta de GitHub, se comparan versiones número a número (la 0.18 es más nueva que la 0.9) y se descarga de un servidor de prueba en el propio equipo, también cancelando.
+
+### Versión 0.17.0 (exportar a PDF)
 
 ![Primera página del PDF](docs/captura-v0.17-pdf.png)
 
@@ -438,6 +454,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-02 · Lupa 0.18.0: aviso de actualizaciones
 - 2026-10-02 · Lupa 0.17.0: exportar a PDF
 - 2026-10-02 · Lupa 0.16.0: paso a paso en JavaScript y C
 - 2026-10-02 · Código privado: la web y las descargas pasan al repositorio público Lupa-App
