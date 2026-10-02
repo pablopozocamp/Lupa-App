@@ -5,6 +5,7 @@ const shortcuts = [
   ["Ctrl+Mayús+J", "Abrir el modo ejercicios"],
   ["Ctrl+F5", "Ejecutar (los cinco lenguajes)"],
   ["Mayús+F5", "Paso a paso (los cinco lenguajes)"],
+  ["Ctrl+P", "Exportar a PDF para entregarlo"],
   ["Ctrl+Alt+L", "Formatear código"],
   ["Ctrl+Mayús+T", "Cambiar de tema"],
   ["F11", "Modo presentación"],

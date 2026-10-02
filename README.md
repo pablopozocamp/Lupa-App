@@ -17,7 +17,24 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.16.0 (paso a paso en JavaScript y C) · la actual
+### Versión 0.17.0 (exportar a PDF) · la actual
+
+![Primera página del PDF](docs/captura-v0.17-pdf.png)
+
+Novedad de la 0.17.0: **Archivo › Exportar a PDF… (Ctrl+P)**. Crea un PDF con el código para entregarlo en clase, con el mismo estilo limpio de Lupa:
+
+- **Portada**: el logotipo, el título (el nombre de la pestaña, que se puede cambiar), el lenguaje, la fecha y el nombre de quien lo entrega (se recuerda para la próxima vez), con un resumen: cuántas líneas, cuántos errores y cuántas funciones.
+- **El código** con números de línea y los mismos colores que el editor, en la letra JetBrains Mono. Las líneas con errores van marcadas en rojo, y las que no caben en el ancho de la hoja se parten por un espacio y siguen debajo con «↪».
+- **Problemas** (si se quiere): cada error con su línea, su explicación y, si Lupa sabe arreglarlo, la corrección con la línea de antes y la de después. Si no hay errores, lo dice en verde.
+- **Explicación línea a línea** (si se quiere): cada línea o bloque con su código y lo que hace, sangrado según lo que va dentro de qué.
+- **Métricas** (si se quiere): líneas de código, porcentaje de comentarios, funciones, complejidad media y los consejos.
+- Pie en cada página con el título y «Página 2 de 5». Al terminar, el PDF se abre solo.
+
+El PDF se crea con **Apache PDFBox** (licencia Apache 2.0). El texto va en Helvetica, que tienen todos los lectores de PDF y que trae las tildes, la ñ, «», ¿ y ¡; el código va en JetBrains Mono, metida dentro del PDF, y cualquier carácter que no esté en Helvetica (una flecha, un símbolo) se escribe con ella. El PDF tiene texto de verdad: se puede buscar y copiar.
+
+1188 pruebas en verde (7 nuevas): se exporta cada plantilla de los cinco lenguajes, un archivo largo de varias páginas con emojis y símbolos, y se vuelve a leer el PDF para comprobar lo que dice.
+
+### Versión 0.16.0 (paso a paso en JavaScript y C)
 
 ![Paso a paso de un programa de C](docs/captura-v0.16-paso-a-paso-c.png)
 
@@ -421,6 +438,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-02 · Lupa 0.17.0: exportar a PDF
 - 2026-10-02 · Lupa 0.16.0: paso a paso en JavaScript y C
 - 2026-10-02 · Código privado: la web y las descargas pasan al repositorio público Lupa-App
 - 2026-10-02 · Lupa 0.15.0: paso a paso en Java, Python y SQL

@@ -8,7 +8,7 @@ const downloads = [
   {
     icon: DownloadIcon,
     title: "Windows",
-    detail: "Lupa-windows.zip · ~79 MB",
+    detail: "Lupa-windows.zip · ~82 MB",
     description: "Lleva Java incluido: descomprime y abre Lupa.exe. No hace falta instalar nada.",
     href: LATEST_DOWNLOAD("Lupa-windows.zip"),
     cta: "Descargar para Windows",
@@ -16,7 +16,7 @@ const downloads = [
   {
     icon: FileArchive,
     title: "Windows, macOS o Linux",
-    detail: "Lupa.jar · ~28 MB",
+    detail: "Lupa.jar · ~32 MB",
     description: "Necesitas Java 21 o más nuevo instalado. Ábrelo con doble clic o java -jar Lupa.jar.",
     href: LATEST_DOWNLOAD("Lupa.jar"),
     cta: "Descargar Lupa.jar",
@@ -24,7 +24,7 @@ const downloads = [
 ];
 
 const requirements = [
-  { label: "Versión", value: "v0.16.0" },
+  { label: "Versión", value: "v0.17.0" },
   { label: "Java", value: "Incluido (zip) o JDK 21 (.jar)" },
   { label: "Sistema", value: "Windows, macOS o Linux" },
   { label: "Precio", value: "Gratis" },
@@ -59,7 +59,7 @@ export default function Download() {
       <section className="bg-grid border-b border-ink-700/70">
         <div className="mx-auto max-w-6xl px-6 py-20 text-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-ink-700 bg-ink-900/60 px-3 py-1 text-xs font-medium text-mist-300">
-            v0.16.0
+            v0.17.0
           </span>
           <h1 className="mt-4 text-4xl font-bold tracking-tight text-mist-100 sm:text-5xl">
             Descarga <span className="text-gradient">Lupa</span>
