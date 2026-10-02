@@ -17,7 +17,21 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.20.0 (colores de acento y modo concentración) · la actual
+### Versión 0.21.0 (isla dinámica, menú de iOS y novedades) · la actual
+
+![Aviso en la isla dinámica](docs/captura-v0.21-isla.png)
+
+![Menú del clic derecho al estilo iOS](docs/captura-v0.21-menu.png)
+
+Novedades de la 0.21.0, tres ideas sacadas del iPhone:
+
+- **Isla dinámica**: los avisos aparecen arriba en el centro, en una píldora negra que crece con un pequeño rebote, se queda el tiempo justo para leerla y se encoge. Lleva una marca verde si algo ha ido bien, un aviso rojo si hay errores, un círculo que gira mientras Lupa trabaja y un punto del color de acento para lo demás.
+- **Menú del clic derecho de iOS** en el editor: lo de detrás desenfocado, esquinas muy redondeadas, grupos separados por una franja gruesa y los iconos a la derecha. Aparece creciendo desde el clic con un rebote y se maneja también con el teclado. Con siete iconos nuevos y todos los textos en español.
+- **Pantalla de Novedades**: la primera vez que se abre una versión nueva, una ventana enseña lo que trae, con iconos grandes de color. También en **Ayuda › Novedades de esta versión**.
+
+1210 pruebas en verde (8 nuevas).
+
+### Versión 0.20.0 (colores de acento y modo concentración)
 
 ![Lupa con el acento morado](docs/captura-v0.20-acento.png)
 
@@ -482,6 +496,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-02 · Lupa 0.21.0: isla dinámica, menú de iOS y novedades
 - 2026-10-02 · Lupa 0.20.0: colores de acento y modo concentración
 - 2026-10-02 · Lupa 0.19.0: efecto de profundidad
 - 2026-10-02 · Lupa 0.18.0: aviso de actualizaciones
