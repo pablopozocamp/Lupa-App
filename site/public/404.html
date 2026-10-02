@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lupa</title>
+    <script type="text/javascript">
+      // GitHub Pages no sabe servir rutas de una SPA (react-router). Este script
+      // redirige /features o /docs a index.html?/features, que el script en
+      // index.html convierte de vuelta en una URL limpia con history.replaceState.
+      var pathSegmentsToKeep = 1; // conserva "/Lupa-App" del project page
+      var l = window.location;
+      l.replace(
+        l.protocol +
+          "//" +
+          l.hostname +
+          (l.port ? ":" + l.port : "") +
+          l.pathname.split("/").slice(0, 1 + pathSegmentsToKeep).join("/") +
+          "/?/" +
+          l.pathname.slice(1).split("/").slice(pathSegmentsToKeep).join("/").replace(/&/g, "~and~") +
+          (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+          l.hash,
+      );
+    </script>
+  </head>
+  <body></body>
+</html>

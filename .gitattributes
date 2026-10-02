@@ -1,0 +1,7 @@
+# Saltos de línea de Linux en el repositorio y también al descargarlo en Windows,
+# que son los que usa Lupa por dentro (al abrir un archivo, los \r\n pasan a \n).
+* text=auto eol=lf
+*.png binary
+*.ico binary
+*.zip binary
+*.jar binary
