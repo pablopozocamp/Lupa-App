@@ -17,7 +17,23 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.23.0 (desplegables de iOS) · la actual
+### Versión 0.24.0 (isla en directo, control segmentado y alertas de iOS) · la actual
+
+![Actividad en directo en la isla](docs/captura-v0.24-isla-directo.png)
+
+![Control segmentado del panel lateral](docs/captura-v0.24-segmentado.png)
+
+![Alerta de iOS](docs/captura-v0.24-alerta.png)
+
+Novedades de la 0.24.0, tres ideas más del iPhone:
+
+- **Actividad en directo en la isla dinámica**: mientras tu programa se ejecuta, la isla se queda abierta con el lenguaje, el tiempo que lleva y un botón rojo para pararlo. Con el ratón encima crece y enseña «Parar»; un clic en el resto de la isla enseña la terminal.
+- **Control segmentado** en el panel lateral: Problemas, Detección, Explicación, Mapa y Métricas son una tira de iOS con una píldora que se desliza hasta la pestaña elegida. El número de problemas sale en una insignia roja.
+- **Alertas de iOS** en lugar de los diálogos de antes (cerrar o salir sin guardar, ir a la línea, renombrar…): la ventana se desenfoca detrás y la pregunta sale en una tarjeta en el centro. Los botones que borran o pierden algo van en rojo, e Intro nunca los elige sin querer.
+
+1225 pruebas en verde (7 nuevas).
+
+### Versión 0.23.0 (desplegables de iOS)
 
 ![Menú Ver al estilo iOS](docs/captura-v0.23-menu-ver.png)
 
@@ -523,6 +539,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-03 · Lupa 0.24.0: isla en directo, control segmentado y alertas de iOS
 - 2026-10-03 · Lupa 0.23.0: desplegables de iOS
 - 2026-10-02 · Lupa 0.22.0: más fluida
 - 2026-10-02 · Lupa 0.21.0: isla dinámica, menú de iOS y novedades
