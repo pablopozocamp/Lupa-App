@@ -17,7 +17,28 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.24.0 (isla en directo, control segmentado y alertas de iOS) · la actual
+### Versión 0.25.0 (isla dinámica nueva) · la actual
+
+![Isla con el dato a la derecha](docs/captura-v0.25-isla-errores.png)
+
+![Isla con la marca verde](docs/captura-v0.25-isla-exito.png)
+
+![Isla agrandada con el texto entero](docs/captura-v0.25-isla-texto-entero.png)
+
+![Actividad en directo agrandada](docs/captura-v0.25-isla-actividad.png)
+
+Novedades de la 0.25.0: la isla dinámica, rehecha para parecerse mucho más a la del iPhone:
+
+- **Muelles de verdad**: cambia de forma con suavidad (y un pequeño rebote) aunque lleguen avisos seguidos, nace de una píldora pequeña y vuelve a ella al cerrarse.
+- **El dato, a la derecha**: «Python» a la izquierda y «3 errores» a la derecha en rojo, o «sin errores de sintaxis» en verde.
+- **Símbolos animados**: la marca verde se dibuja sola, los errores sacuden la isla y lo que tarda lleva la rueda de puntos de iOS.
+- **Fundido al cambiar de texto**: el viejo se va encogiéndose y el nuevo llega creciendo.
+- **Con el ratón encima** se agranda y enseña el texto entero, y no se cierra mientras tanto; un clic la cierra. Mientras se ejecuta un programa, enseña el tiempo en grande y un botón «Parar».
+- Algo más alta, en negrita y con una sombra suave.
+
+1230 pruebas en verde (5 nuevas).
+
+### Versión 0.24.0 (isla en directo, control segmentado y alertas de iOS)
 
 ![Actividad en directo en la isla](docs/captura-v0.24-isla-directo.png)
 
@@ -539,6 +560,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-03 · Lupa 0.25.0: isla dinámica nueva
 - 2026-10-03 · Lupa 0.24.0: isla en directo, control segmentado y alertas de iOS
 - 2026-10-03 · Lupa 0.23.0: desplegables de iOS
 - 2026-10-02 · Lupa 0.22.0: más fluida
