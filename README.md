@@ -17,7 +17,24 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.22.0 (más fluida) · la actual
+### Versión 0.23.0 (desplegables de iOS) · la actual
+
+![Menú Ver al estilo iOS](docs/captura-v0.23-menu-ver.png)
+
+![Submenú de color de acento dentro del menú](docs/captura-v0.23-submenu.png)
+
+![Selector de lenguaje al estilo iOS](docs/captura-v0.23-lenguaje.png)
+
+Novedades de la 0.23.0: **todos los desplegables de los botones son menús de iOS**, como el del clic derecho de la 0.21: lo de detrás desenfocado, esquinas muy redondeadas, sombra suave y un pequeño rebote al aparecer.
+
+- **Menús de arriba** (Archivo, Editar, Análisis, Ejecutar, Ver y Ayuda): se abren debajo de su nombre. Con uno abierto, al pasar el ratón por otro se cambia a ese. Los atajos, Alt + letra y la paleta de comandos funcionan igual que antes.
+- **Selector de lenguaje** y botón **«De una pestaña»** de Comparar dos versiones: también son menús de iOS.
+- **Marcas ✓** a la izquierda en lo que está activado o elegido (minimapa, tema del editor, color de acento, lenguaje…).
+- **Submenús dentro del menú**: Plantillas, Tema del editor, Color de acento o Cambiar lenguaje se abren en el mismo menú, con una fila arriba para volver.
+- **Con el teclado**: flechas para moverse, derecha para entrar en un submenú, izquierda para volver o pasar al menú de al lado, Intro para elegir y Esc para cerrar.
+
+1218 pruebas en verde (5 nuevas).
+### Versión 0.22.0 (más fluida)
 
 Novedades de la 0.22.0: **Lupa va más fluida**. Medido con un archivo de 2.800 líneas:
 
@@ -506,6 +523,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-03 · Lupa 0.23.0: desplegables de iOS
 - 2026-10-02 · Lupa 0.22.0: más fluida
 - 2026-10-02 · Lupa 0.21.0: isla dinámica, menú de iOS y novedades
 - 2026-10-02 · Lupa 0.20.0: colores de acento y modo concentración
