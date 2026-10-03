@@ -17,7 +17,7 @@ const REPO_URL = "https://github.com/pablopozocamp/Lupa-App";
 const stats = [
   { value: "5", label: "lenguajes: Java, Python, JS, C y SQL" },
   { value: "23", label: "ejercicios guiados con pistas" },
-  { value: "1221", label: "pruebas automáticas en verde" },
+  { value: "1223", label: "pruebas automáticas en verde" },
   { value: "100%", label: "gratis, sin anuncios ni registro" },
 ];
 
@@ -85,7 +85,7 @@ export default function Home() {
         <div className="relative mx-auto max-w-6xl px-6 pb-20 pt-20 lg:pb-28 lg:pt-28">
           <div className="mx-auto max-w-2xl text-center">
             <span className="inline-flex items-center gap-2 rounded-full border border-ink-700 bg-ink-900/60 px-3 py-1 text-xs font-medium text-mist-300">
-              v0.26.0 ya disponible para descargar
+              v0.27.0 ya disponible para descargar
             </span>
 
             <h1 className="mt-6 text-4xl font-bold leading-[1.1] tracking-tight text-mist-100 sm:text-5xl lg:text-[3.4rem]">
@@ -118,7 +118,7 @@ export default function Home() {
             </div>
 
             <p className="mt-5 text-sm text-mist-400">
-              Gratis, v0.26.0 · Windows y cualquier sistema con Java 21
+              Gratis, v0.27.0 · Windows y cualquier sistema con Java 21
             </p>
           </div>
 

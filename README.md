@@ -17,7 +17,15 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.26.0 (sin isla dinámica) · la actual
+### Versión 0.27.0 (pestañas que se deslizan) · la actual
+
+![A mitad del deslizamiento](docs/captura-v0.27-deslizar.png)
+
+Novedades de la 0.27.0: al cambiar de pestaña en el panel de la derecha (Problemas, Detección, Explicación, Mapa, Métricas), el contenido se desliza hacia un lado, como al pasar de página en el iPhone: la pestaña vieja sale por un lado y la nueva entra por el otro, a la vez que la píldora del control segmentado. Vale con un clic, con Ctrl+1…5 o cuando Lupa cambia sola de pestaña. Con las animaciones apagadas (menú Ver), cambia al momento.
+
+1223 pruebas en verde (2 nuevas).
+
+### Versión 0.26.0 (sin isla dinámica)
 
 Novedades de la 0.26.0: se quita la isla dinámica (la píldora negra de arriba):
 
@@ -570,6 +578,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-03 · Lupa 0.27.0: pestañas que se deslizan
 - 2026-10-03 · Lupa 0.26.0: sin isla dinámica
 - 2026-10-03 · Lupa 0.25.0: isla dinámica nueva
 - 2026-10-03 · Lupa 0.24.0: isla en directo, control segmentado y alertas de iOS
