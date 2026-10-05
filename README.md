@@ -17,7 +17,17 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.28.0 (llaves de bloque) · la actual
+### Versión 0.29.0 (ayudas para leer el código) · la actual
+
+![Seguir una variable, valores al lado del código, resúmenes y rótulos de cierre](docs/captura-v0.29-ayudas.png)
+
+![La flecha de un break enseña a dónde salta el programa](docs/captura-v0.29-salto.png)
+
+Novedades de la 0.29.0: nueve ayudas para entender el código de un vistazo, sin salir del editor. Al pasar el ratón por una variable se marca en verde dónde se crea, en naranja dónde cambia y en azul dónde se lee (también en el minimapa), y cada variable lleva siempre su propio color. Con Alt+F5 (Ejecutar › Ver valores en el código) o al grabar el paso a paso, cada línea enseña los valores que dio, como «suma = 0 → 10 → 30». La condición de un if, elif, while o WHERE se lee en palabras al pasar el ratón, con su tabla de verdad si junta varias partes. Un return, un break o un continue enseñan con una flecha a qué línea salta el programa. Al lado de cada función sale una frase que resume qué hace («Devuelve 0, 5 o 10 según subtotal»), los bloques largos acaban con «← fin de total», al pasar el ratón por una llamada se ve la función en pequeño y la sangría tiene guías de colores. Cada ayuda se puede apagar en Ver › Ayudas para leer.
+
+1240 pruebas en verde (13 nuevas).
+
+### Versión 0.28.0 (llaves de bloque)
 
 ![Llaves de bloque junto a los números de línea](docs/captura-v0.28-llaves.png)
 
@@ -586,6 +596,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-05 · Lupa 0.29.0: nueve ayudas para leer el código
 - 2026-10-05 · Lupa 0.28.0: llaves de bloque junto a los números de línea
 - 2026-10-03 · Lupa 0.27.0: pestañas que se deslizan
 - 2026-10-03 · Lupa 0.26.0: sin isla dinámica
