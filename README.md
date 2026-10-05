@@ -17,7 +17,17 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.30.0 (globos de ayuda al estilo iOS) · la actual
+### Versión 0.31.0 (nivel de ayuda del 0 al 3) · la actual
+
+![Nivel 0: el código sin colores ni ayudas](docs/captura-v0.31-nivel0.png)
+
+![Nivel 3: todas las ayudas](docs/captura-v0.31-nivel3.png)
+
+Novedades de la 0.31.0: arriba, junto a Abrir, hay un selector para elegir cuánta ayuda da Lupa, con la píldora en el color de acento para que se vea a la primera. En el 0 (sin ayuda) el código sale tal cual, todo del mismo color y sin negritas, sin marcas, sin sugerencias ni glosario, como en un examen en papel. El 1 (ayuda básica) trae los colores de siempre, la línea del cursor, los paréntesis emparejados, el glosario y las sugerencias. El 2 (más ayuda) añade las llaves de bloque, las guías de sangría, «← fin de …», seguir variables, las condiciones en palabras, las flechas de return y break y el vistazo a funciones. El 3 (ayuda máxima) lo enseña todo, también cada variable con su color, el resumen de cada función y los valores al lado del código. Al pasar el ratón por cada número se explica qué trae; también está en Ver › Nivel de ayuda y en la paleta (Ctrl+K), y se recuerda para la próxima vez.
+
+1245 pruebas en verde (3 nuevas).
+
+### Versión 0.30.0 (globos de ayuda al estilo iOS)
 
 ![Globo de ayuda transparente con el fondo desenfocado](docs/captura-v0.30-globo.png)
 
@@ -604,6 +614,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-05 · Lupa 0.31.0: nivel de ayuda del 0 al 3
 - 2026-10-05 · Lupa 0.30.0: globos de ayuda al estilo iOS
 - 2026-10-05 · Lupa 0.29.0: nueve ayudas para leer el código
 - 2026-10-05 · Lupa 0.28.0: llaves de bloque junto a los números de línea
