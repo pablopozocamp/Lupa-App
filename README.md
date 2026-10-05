@@ -17,7 +17,15 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.29.0 (ayudas para leer el código) · la actual
+### Versión 0.30.0 (globos de ayuda al estilo iOS) · la actual
+
+![Globo de ayuda transparente con el fondo desenfocado](docs/captura-v0.30-globo.png)
+
+Novedades de la 0.30.0: los globos de ayuda (los carteles que salen al dejar el ratón encima de algo: el glosario, las condiciones en palabras, las variables, las llaves…) son ahora transparentes, con lo de detrás desenfocado y un velo claro u oscuro encima, igual que los menús de iOS. Además, «se lee» va siempre en azul (con el acento naranja se confundía con «cambia»), y el rótulo «← fin de …» y las llaves de bloque acaban en la última línea con código, no en las líneas vacías del final.
+
+1242 pruebas en verde (2 nuevas).
+
+### Versión 0.29.0 (ayudas para leer el código)
 
 ![Seguir una variable, valores al lado del código, resúmenes y rótulos de cierre](docs/captura-v0.29-ayudas.png)
 
@@ -596,6 +604,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-05 · Lupa 0.30.0: globos de ayuda al estilo iOS
 - 2026-10-05 · Lupa 0.29.0: nueve ayudas para leer el código
 - 2026-10-05 · Lupa 0.28.0: llaves de bloque junto a los números de línea
 - 2026-10-03 · Lupa 0.27.0: pestañas que se deslizan
