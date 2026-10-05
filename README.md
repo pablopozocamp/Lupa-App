@@ -622,6 +622,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-05 · Lupa 0.32.0: las llaves ya no desaparecen al pasar el ratón
 - 2026-10-05 · Lupa 0.32.0: trece colores de acento
 - 2026-10-05 · Lupa 0.31.0: el nivel 0 usa el color normal del texto
 - 2026-10-05 · Lupa 0.31.0: nivel de ayuda del 0 al 3
