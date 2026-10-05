@@ -17,7 +17,15 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.31.0 (nivel de ayuda del 0 al 3) · la actual
+### Versión 0.32.0 (trece colores de acento) · la actual
+
+![Los trece colores de acento, en claro y en oscuro](docs/captura-v0.32-acentos.png)
+
+Novedades de la 0.32.0: Ver › Color de acento pasa de cuatro a trece colores, los del sistema de iOS: azul, índigo, morado, rosa, rojo, naranja, amarillo, verde, menta, turquesa, cian, marrón y grafito. Cada uno tiene su versión para el tema claro y para el oscuro, y cambia los botones principales, la selección, la pestaña activa, los iconos, la píldora del nivel de ayuda y las luces del fondo. El amarillo, la menta y el cian son algo más oscuros que los de iOS para que la letra blanca de los botones se lea bien.
+
+1245 pruebas en verde.
+
+### Versión 0.31.0 (nivel de ayuda del 0 al 3)
 
 ![Nivel 0: el código sin colores ni ayudas](docs/captura-v0.31-nivel0.png)
 
@@ -614,6 +622,8 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-05 · Lupa 0.32.0: trece colores de acento
+- 2026-10-05 · Lupa 0.31.0: el nivel 0 usa el color normal del texto
 - 2026-10-05 · Lupa 0.31.0: nivel de ayuda del 0 al 3
 - 2026-10-05 · Lupa 0.30.0: globos de ayuda al estilo iOS
 - 2026-10-05 · Lupa 0.29.0: nueve ayudas para leer el código
