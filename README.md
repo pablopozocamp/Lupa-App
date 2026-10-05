@@ -17,7 +17,15 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.27.0 (pestañas que se deslizan) · la actual
+### Versión 0.28.0 (llaves de bloque) · la actual
+
+![Llaves de bloque junto a los números de línea](docs/captura-v0.28-llaves.png)
+
+Novedades de la 0.28.0: junto a los números de línea salen unas llaves que marcan dónde empieza y dónde acaba cada función, clase, bucle o condición. Los bloques metidos unos dentro de otros tienen su propia llave, y la del bloque en el que está el cursor sale en el color de acento. Si pasas el ratón por una llave, Lupa te dice qué bloque es («Función calcular_total», «Bucle for»…) y en qué líneas empieza y acaba; con un clic se selecciona entero. Se pueden esconder en Ver › Llaves de bloque.
+
+1227 pruebas en verde (4 nuevas).
+
+### Versión 0.27.0 (pestañas que se deslizan)
 
 ![A mitad del deslizamiento](docs/captura-v0.27-deslizar.png)
 
@@ -578,6 +586,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-05 · Lupa 0.28.0: llaves de bloque junto a los números de línea
 - 2026-10-03 · Lupa 0.27.0: pestañas que se deslizan
 - 2026-10-03 · Lupa 0.26.0: sin isla dinámica
 - 2026-10-03 · Lupa 0.25.0: isla dinámica nueva
