@@ -628,6 +628,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-06 · Lupa 0.33.0: al pasar de un menú a otro ya no se queda pegado el anterior
 - 2026-10-06 · Lupa 0.33.0: menús más fluidos
 - 2026-10-05 · Lupa 0.32.0: las llaves ya no desaparecen al pasar el ratón
 - 2026-10-05 · Lupa 0.32.0: trece colores de acento
