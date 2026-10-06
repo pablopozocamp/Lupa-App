@@ -17,7 +17,17 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.33.0 (menús más fluidos) · la actual
+### Versión 0.34.0 (ajustes de iOS y retoques de la interfaz) · la actual
+
+![La pantalla de Ajustes](docs/captura-v0.34-ajustes.png)
+
+![Ventana estrecha: pestañas en iconos, datos en el panel y la barra de abajo nueva](docs/captura-v0.34-ventana.png)
+
+Novedades de la 0.34.0: una pantalla de Ajustes como la del iPhone (Ver › Ajustes o Ctrl+,), con tarjetas e interruptores para el modo oscuro, el color de acento, el tema del editor, el efecto de profundidad, las animaciones, el nivel de ayuda, cada ayuda para leer, las llaves, el minimapa, formatear al guardar y las actualizaciones; hace lo mismo que el menú, así que los dos van siempre a la par. La barra de abajo tiene la letra más grande, cuántos errores hay (al pulsarlo lleva a Problemas) y el nivel de ayuda (al pulsarlo abre los Ajustes). Antes de analizar, el panel derecho enseña el lenguaje, las líneas, las funciones y la palabra del día del glosario, y sus textos ya no se cortan. En ventanas estrechas la cabecera esconde, por orden, el nombre del archivo, la palabra «Lenguaje» y el nombre del nivel, y las pestañas del panel quedan en iconos. El lenguaje sin elegir dice «Automático» y el minimapa ya no enseña un recuadro gris con el editor vacío.
+
+1249 pruebas en verde (4 nuevas).
+
+### Versión 0.33.0 (menús más fluidos)
 
 Novedades de la 0.33.0: los menús (Archivo, Editar, Ver…, el del clic derecho y los desplegables como el del lenguaje) van mucho más fluidos. Antes, en cada fotograma de la animación se volvía a dibujar el menú entero, con su sombra, sus iconos y todo lo que había debajo; ahora el menú se dibuja una sola vez al abrirlo y la animación solo mueve esa imagen. Cada fotograma pasa de unos 12–17 ms a unos 3 ms. Al pasar el ratón por las opciones solo se repintan las dos filas que cambian, y el desenfoque del cristal se hace a media resolución, que se ve igual y cuesta la cuarta parte.
 
@@ -628,6 +638,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-06 · Lupa 0.34.0: ajustes de iOS y retoques de la interfaz
 - 2026-10-06 · Lupa 0.33.0: al pasar de un menú a otro ya no se queda pegado el anterior
 - 2026-10-06 · Lupa 0.33.0: menús más fluidos
 - 2026-10-05 · Lupa 0.32.0: las llaves ya no desaparecen al pasar el ratón
