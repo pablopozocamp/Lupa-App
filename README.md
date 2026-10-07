@@ -17,7 +17,15 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.36.0 (panel de Proyecto como el de IntelliJ) · la actual
+### Versión 0.37.0 (trabajar en equipo, mejorado) · la actual
+
+![La pestaña Equipo con el chat, la selección y el cursor del compañero](docs/captura-v0.37-equipo.png)
+
+Novedades de la 0.37.0: trabajar en equipo (antes «en pareja») mejora en todo. Unirse a una sesión busca solas las sesiones de la red y las enseña con el nombre de quien comparte y su archivo (si la red no lo deja, se sigue pudiendo escribir la dirección). En la pestaña compartida, Ctrl+Z y Ctrl+Y deshacen y rehacen solo lo que ha escrito cada uno, aunque los compañeros hayan escrito después. Mientras dura la sesión hay una pestaña Equipo con quién está (con su color), botones para ir a donde escribe cada uno o seguirle, y un chat con aviso de mensajes sin leer. También se ve lo que selecciona cada compañero, la barra de abajo dice con quién se trabaja, al compartir se puede copiar la dirección y, si dos Lupas tienen versiones distintas, avisan en vez de fallar.
+
+1262 pruebas en verde (4 nuevas: deshacer en equipo, el chat y la lista de quién está por la red, y encontrar la sesión por su faro).
+
+### Versión 0.36.0 (panel de Proyecto como el de IntelliJ)
 
 ![El panel de Proyecto con la carpeta de Lupa abierta](docs/captura-v0.36-proyecto.png)
 
@@ -656,6 +664,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-07 · Lupa 0.37.0: trabajar en equipo mejorado
 - 2026-10-07 · Lupa 0.36.0: panel de Proyecto como el de IntelliJ
 - 2026-10-07 · Lupa 0.35.0: la ventana de Ajustes pasa a ser de escritorio (apartados a la izquierda y casillas)
 - 2026-10-07 · Lupa 0.35.0: trabajar en pareja
