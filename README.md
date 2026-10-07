@@ -17,7 +17,15 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.37.0 (trabajar en equipo, mejorado) · la actual
+### Versión 0.38.0 (cerrar proyecto, recientes y menú del árbol) · la actual
+
+![El menú del clic derecho en el árbol de Proyecto](docs/captura-v0.38-menu.png)
+
+Novedades de la 0.38.0: el panel de Proyecto tiene ya todo lo de un IDE. Cerrar proyecto y Proyectos recientes están en Archivo y en el nuevo botón «⋯» del panel (que además tiene Nuevo archivo, Nueva carpeta, Actualizar, Plegar todo y Mostrar en el Explorador); con el proyecto cerrado, el panel enseña los recientes para abrirlos con un clic. Con el clic derecho en el árbol: abrir, nuevo archivo, nueva carpeta, renombrar (F2), eliminar mandándolo a la papelera (Supr), copiar la ruta y mostrar en el Explorador.
+
+1262 pruebas en verde.
+
+### Versión 0.37.0 (trabajar en equipo, mejorado)
 
 ![La pestaña Equipo con el chat, la selección y el cursor del compañero](docs/captura-v0.37-equipo.png)
 
@@ -664,6 +672,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-07 · Lupa 0.38.0: cerrar proyecto, recientes y menú del árbol
 - 2026-10-07 · Lupa 0.37.0: trabajar en equipo mejorado
 - 2026-10-07 · Lupa 0.36.0: panel de Proyecto como el de IntelliJ
 - 2026-10-07 · Lupa 0.35.0: la ventana de Ajustes pasa a ser de escritorio (apartados a la izquierda y casillas)
