@@ -17,7 +17,17 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.35.0 (trabajar en pareja) · la actual
+### Versión 0.36.0 (panel de Proyecto como el de IntelliJ) · la actual
+
+![El panel de Proyecto con la carpeta de Lupa abierta](docs/captura-v0.36-proyecto.png)
+
+![Las clases, métodos y atributos de un archivo, dentro del árbol](docs/captura-v0.36-clases.png)
+
+Novedades de la 0.36.0: un panel de Proyecto a la izquierda, como el de IntelliJ. Archivo › Abrir carpeta (Ctrl+Mayús+O) enseña el árbol de la carpeta con su nombre y su ruta arriba, las carpetas y los archivos por orden y cada uno con su icono (las carpetas de código en azul y las que no son del alumno, como .idea o target, en naranja). Los paquetes se juntan como en IntelliJ («es.lupa»), y al desplegar un archivo se ven sus clases, métodos y atributos; doble clic abre el archivo o va justo a ese método. Arriba hay botones para abrir otra carpeta, localizar en el árbol el archivo que se ve, plegar todo y esconder el panel (Ctrl+Mayús+E). Lupa recuerda la carpeta y el ancho del panel, y el árbol se pone al día solo al volver a la ventana.
+
+1258 pruebas en verde (3 nuevas).
+
+### Versión 0.35.0 (trabajar en pareja)
 
 ![El cursor del compañero, con su nombre, en una pestaña compartida](docs/captura-v0.35-pareja.png)
 
@@ -646,6 +656,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-07 · Lupa 0.36.0: panel de Proyecto como el de IntelliJ
 - 2026-10-07 · Lupa 0.35.0: la ventana de Ajustes pasa a ser de escritorio (apartados a la izquierda y casillas)
 - 2026-10-07 · Lupa 0.35.0: trabajar en pareja
 - 2026-10-06 · Lupa 0.34.0: ajustes de iOS y retoques de la interfaz
