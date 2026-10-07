@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.41.0 (panel de Proyecto que hace de todo) · la actual
+### Versión 0.42.0 (el equipo ve el proyecto entero) · la actual
+
+Novedades de la 0.42.0: al trabajar en equipo, los compañeros ya no ven solo las pestañas abiertas de quien comparte, sino todo su proyecto. En su panel de Proyecto salen todas las carpetas y archivos, con un botón arriba para pasar de «Mi proyecto» al del compañero, y el buscador filtra por nombre. Con doble clic abren cualquier archivo en una pestaña del equipo (a quien comparte se le abre de fondo, sin cambiarle la pestaña). Ctrl+S guarda en el ordenador de quien comparte, que es donde están los archivos. La lista se pone al día sola si se crean o borran archivos, y los abiertos salen en negrita. Solo se pueden abrir archivos de texto de dentro de la carpeta del proyecto. Todos tienen que tener la 0.42 para trabajar juntos.
+
+1270 pruebas en verde (2 nuevas: un invitado recibe la lista de archivos, abre uno que no estaba abierto, escribe y lo guarda el anfitrión, y no puede salirse de la carpeta con «../»).
+
+### Versión 0.41.0 (panel de Proyecto que hace de todo)
 
 Novedades de la 0.41.0: el panel de Proyecto (las carpetas de la izquierda) sirve para mucho más. Busca en todo el proyecto con Ctrl+Mayús+G o con el buscador de arriba del panel, por nombre de archivo y por las líneas que contienen lo que escribes; un clic te lleva a esa línea. «Nuevo ›» crea una clase, interfaz o enumerado de Java con su package ya puesto, o un programa de Python, JavaScript, C o una consulta SQL con su esqueleto. Copiar, cortar, pegar y duplicar con Ctrl+C/X/V/D o con el clic derecho, sin pisar nada, y arrastrar archivos entre carpetas o desde el Explorador. Ejecutar, Analizar o abrir con el programa de Windows desde el clic derecho. Los archivos abiertos salen en negrita y los que tienen cambios sin guardar con un punto; al pasar el ratón se ve su tamaño, sus líneas y cuándo se cambiaron. El árbol se actualiza solo cuando algo cambia en la carpeta, «Seguir al editor» marca el archivo que estás viendo, y si renombras o mueves un archivo abierto su pestaña lo sigue.
 
@@ -694,6 +700,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-07 · Lupa 0.42.0: el equipo ve el proyecto entero y abre cualquier archivo
 - 2026-10-07 · Lupa 0.41.0: panel de Proyecto con buscador, plantillas, copiar/pegar y arrastrar
 - 2026-10-07 · Lupa 0.40.0: se actualiza sola, sin descargar el zip
 - 2026-10-07 · Lupa 0.39.0: el equipo comparte todas las pestañas y cada uno elige su nombre
