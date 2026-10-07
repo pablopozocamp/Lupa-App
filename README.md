@@ -31,7 +31,7 @@ Novedades de la 0.35.0: trabajar en pareja. Un alumno pulsa Archivo › Trabajar
 
 ![Ventana estrecha: pestañas en iconos, datos en el panel y la barra de abajo nueva](docs/captura-v0.34-ventana.png)
 
-Novedades de la 0.34.0: una pantalla de Ajustes como la del iPhone (Ver › Ajustes o Ctrl+,), con tarjetas e interruptores para el modo oscuro, el color de acento, el tema del editor, el efecto de profundidad, las animaciones, el nivel de ayuda, cada ayuda para leer, las llaves, el minimapa, formatear al guardar y las actualizaciones; hace lo mismo que el menú, así que los dos van siempre a la par. La barra de abajo tiene la letra más grande, cuántos errores hay (al pulsarlo lleva a Problemas) y el nivel de ayuda (al pulsarlo abre los Ajustes). Antes de analizar, el panel derecho enseña el lenguaje, las líneas, las funciones y la palabra del día del glosario, y sus textos ya no se cortan. En ventanas estrechas la cabecera esconde, por orden, el nombre del archivo, la palabra «Lenguaje» y el nombre del nivel, y las pestañas del panel quedan en iconos. El lenguaje sin elegir dice «Automático» y el minimapa ya no enseña un recuadro gris con el editor vacío.
+Novedades de la 0.34.0: una ventana de Ajustes (Ver › Ajustes o Ctrl+,), con los apartados a la izquierda y casillas para el modo oscuro, el color de acento, el tema del editor, el efecto de profundidad, las animaciones, el nivel de ayuda, cada ayuda para leer, las llaves, el minimapa, formatear al guardar y las actualizaciones; hace lo mismo que el menú, así que los dos van siempre a la par. La barra de abajo tiene la letra más grande, cuántos errores hay (al pulsarlo lleva a Problemas) y el nivel de ayuda (al pulsarlo abre los Ajustes). Antes de analizar, el panel derecho enseña el lenguaje, las líneas, las funciones y la palabra del día del glosario, y sus textos ya no se cortan. En ventanas estrechas la cabecera esconde, por orden, el nombre del archivo, la palabra «Lenguaje» y el nombre del nivel, y las pestañas del panel quedan en iconos. El lenguaje sin elegir dice «Automático» y el minimapa ya no enseña un recuadro gris con el editor vacío.
 
 1249 pruebas en verde (4 nuevas).
 
@@ -646,6 +646,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-07 · Lupa 0.35.0: la ventana de Ajustes pasa a ser de escritorio (apartados a la izquierda y casillas)
 - 2026-10-07 · Lupa 0.35.0: trabajar en pareja
 - 2026-10-06 · Lupa 0.34.0: ajustes de iOS y retoques de la interfaz
 - 2026-10-06 · Lupa 0.33.0: al pasar de un menú a otro ya no se queda pegado el anterior
