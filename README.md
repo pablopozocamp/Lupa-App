@@ -13,11 +13,19 @@ En [Releases](https://github.com/pablopozocamp/Lupa-App/releases/latest):
 
 Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y «Ejecutar de todas formas» (la app aún no está firmada).
 
+Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actualizar y reiniciar» descarga solo lo que cambia y la vuelve a abrir ya actualizada. El zip solo hace falta la primera vez.
+
 ## Historial de versiones
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.39.0 (el equipo comparte todas las pestañas) · la actual
+### Versión 0.40.0 (se actualiza sola) · la actual
+
+Novedades de la 0.40.0: Lupa se actualiza sola, sin descargar el zip cada vez. Cuando hay una versión nueva, el aviso trae el botón «Actualizar y reiniciar»: descarga solo lo que cambia (el lupa.jar, unos 30 MB en vez de los 80 del zip), comprueba que está bien y vuelve a abrir Lupa ya actualizada (lo que no esté guardado lo pregunta antes). Con «Al cerrar Lupa», la versión nueva se pone sola al cerrarla. Si alguna versión necesita también el Java de dentro, lo dirá en sus notas y Lupa descargará el zip completo como antes. Esta es la última vez que hace falta descargar el zip.
+
+1265 pruebas en verde (3 nuevas: una cambia de verdad el jar de una carpeta con espacios mientras «Lupa» sigue abierta, y la vuelve a abrir).
+
+### Versión 0.39.0 (el equipo comparte todas las pestañas)
 
 ![Tres pestañas compartidas, con el compañero renombrado en la pestaña Equipo](docs/captura-v0.39-equipo.png)
 
@@ -680,6 +688,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-07 · Lupa 0.40.0: se actualiza sola, sin descargar el zip
 - 2026-10-07 · Lupa 0.39.0: el equipo comparte todas las pestañas y cada uno elige su nombre
 - 2026-10-07 · Lupa 0.38.0: cerrar proyecto, recientes y menú del árbol
 - 2026-10-07 · Lupa 0.37.0: trabajar en equipo mejorado
