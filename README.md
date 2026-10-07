@@ -17,7 +17,15 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.38.0 (cerrar proyecto, recientes y menú del árbol) · la actual
+### Versión 0.39.0 (el equipo comparte todas las pestañas) · la actual
+
+![Tres pestañas compartidas, con el compañero renombrado en la pestaña Equipo](docs/captura-v0.39-equipo.png)
+
+Novedades de la 0.39.0: el trabajo en equipo ya no se queda en una pestaña. Invitar al equipo (Archivo › Trabajar en equipo) comparte todas las pestañas abiertas, y cualquier pestaña que abra cualquiera después (con «+», Abrir, una plantilla o el panel de Proyecto) entra sola en el equipo y les aparece a todos; antes, al abrir otra pestaña, el equipo se perdía. Cada pestaña lleva sus cambios, su Ctrl+Z y los cursores de quien esté en ella, e Ir y Seguir llevan también a la pestaña donde escribe el compañero. Si un invitado cierra una pestaña, sale del equipo solo para él; si la cierra quien invitó, a los demás se les queda como copia. La primera vez se pregunta el nombre que verán los demás, y en la pestaña Equipo se puede cambiar cuando se quiera. Las Lupas tienen que tener esta misma versión para trabajar juntas.
+
+1262 pruebas en verde (la de la red ahora es con tres Lupas y tres pestañas a la vez, una abierta por un invitado).
+
+### Versión 0.38.0 (cerrar proyecto, recientes y menú del árbol)
 
 ![El menú del clic derecho en el árbol de Proyecto](docs/captura-v0.38-menu.png)
 
@@ -672,6 +680,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-07 · Lupa 0.39.0: el equipo comparte todas las pestañas y cada uno elige su nombre
 - 2026-10-07 · Lupa 0.38.0: cerrar proyecto, recientes y menú del árbol
 - 2026-10-07 · Lupa 0.37.0: trabajar en equipo mejorado
 - 2026-10-07 · Lupa 0.36.0: panel de Proyecto como el de IntelliJ
