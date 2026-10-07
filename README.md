@@ -17,7 +17,15 @@ Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y 
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.34.0 (ajustes de iOS y retoques de la interfaz) · la actual
+### Versión 0.35.0 (trabajar en pareja) · la actual
+
+![El cursor del compañero, con su nombre, en una pestaña compartida](docs/captura-v0.35-pareja.png)
+
+Novedades de la 0.35.0: trabajar en pareja. Un alumno pulsa Archivo › Trabajar en pareja › Compartir este archivo y Lupa le enseña su dirección (por ejemplo 192.168.1.23). Su compañero, en su Lupa, va a Archivo › Trabajar en pareja › Unirse y la escribe: el archivo se le abre en una pestaña nueva y, desde ahí, lo que escriben los dos se ve a la vez en las dos pantallas, aunque escriban al mismo tiempo (los cambios se juntan sin pisarse, con la misma idea que Google Docs). El cursor de cada uno se ve en el editor del otro con su color y su nombre, y pueden unirse varios compañeros. Hace falta estar en la misma red; la primera vez, si Windows pregunta por el cortafuegos, hay que pulsar Permitir.
+
+1256 pruebas en verde (7 nuevas, entre ellas tres Lupas conectadas por la red escribiendo a la vez al azar).
+
+### Versión 0.34.0 (ajustes de iOS y retoques de la interfaz)
 
 ![La pantalla de Ajustes](docs/captura-v0.34-ajustes.png)
 
@@ -638,6 +646,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-07 · Lupa 0.35.0: trabajar en pareja
 - 2026-10-06 · Lupa 0.34.0: ajustes de iOS y retoques de la interfaz
 - 2026-10-06 · Lupa 0.33.0: al pasar de un menú a otro ya no se queda pegado el anterior
 - 2026-10-06 · Lupa 0.33.0: menús más fluidos
