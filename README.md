@@ -19,7 +19,11 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.50.0 (Lupa en tu perfil de Discord) · la actual
+### Versión 0.50.1 (Discord con imágenes) · la actual
+
+Novedades de la 0.50.1: el estado de Discord enseña el logo de Lupa y el icono del lenguaje, servidos desde esta web, sin subir nada a la aplicación de Discord. 1299 pruebas en verde.
+
+### Versión 0.50.0 (Lupa en tu perfil de Discord)
 
 Novedades de la 0.50.0: con Discord abierto, el perfil enseña «Jugando a Lupa», el archivo que se edita, el proyecto, el lenguaje y el tiempo programando (o «En equipo con 2 personas»), con un botón para descargar Lupa. En Ajustes › Discord se puede quitar o esconder el archivo y el proyecto. Si Discord no está abierto no pasa nada.
 
@@ -752,6 +756,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-08 · Lupa 0.50.1: el estado de Discord con imágenes desde la web
 - 2026-10-08 · Lupa 0.50.0: estado en Discord (Rich Presence)
 - 2026-10-08 · Lupa 0.49.0: traducir un programa entre Python, Java, JavaScript y C
 - 2026-10-08 · Lupa 0.48.0: Ejecutar va al main del proyecto y los .java llevan una J
