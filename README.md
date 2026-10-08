@@ -19,7 +19,11 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.44.0 (el equipo, cada uno desde su casa) · la actual
+### Versión 0.44.1 (arreglo) · la actual
+
+Novedades de la 0.44.1: si una clase está en un archivo con minúscula (saludo.java), el Main ya la encuentra al pulsar Ejecutar. 1280 pruebas en verde.
+
+### Versión 0.44.0 (el equipo, cada uno desde su casa)
 
 Novedades de la 0.44.0: trabajar en equipo por internet, sin estar en la misma red. Al invitar al equipo sale un código de sala de 6 letras (como KX7-M2P) con un botón para copiarlo, y también en la pestaña Equipo. Los compañeros lo escriben en Archivo › Trabajar en equipo › Unirse a una sesión y entran desde su casa, con todo lo de siempre: las pestañas, el proyecto entero, el chat y los cursores. Solo entra quien tiene el código, y si alguien prueba muchos equivocados la sala se cierra sola. La conexión pasa por bore.pub, un servidor público y gratuito que hace de puente, así que no hay que instalar ni configurar nada. En la misma red sigue funcionando como antes.
 
@@ -712,6 +716,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-08 · Lupa 0.44.1: el Main encuentra las clases de archivos con minúscula
 - 2026-10-08 · Lupa 0.44.0: equipo por internet con código de sala
 - 2026-10-08 · Lupa 0.43.0: ejecutar programas de varias clases y archivos
 - 2026-10-07 · Lupa 0.42.0: el equipo ve el proyecto entero y abre cualquier archivo
