@@ -19,7 +19,11 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.51.2 (invitar desde Discord, sin más) · la actual
+### Versión 0.51.3 (Crear sala) · la actual
+
+Novedades de la 0.51.3: «Invitar al equipo» pasa a llamarse «Crear sala» y «Unirse a una sesión», «Unirse a una sala». 1301 pruebas en verde.
+
+### Versión 0.51.2 (invitar desde Discord, sin más)
 
 Novedades de la 0.51.2: se quita la opción «Invitar por Discord» del menú; con una sesión de equipo abierta, el «+» del chat de Discord ya deja invitar a Lupa. 1301 pruebas en verde.
 
@@ -770,6 +774,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-08 · Lupa 0.51.3: «Crear sala» en vez de «Invitar al equipo»
 - 2026-10-08 · Lupa 0.51.2: sin el botón de invitar por Discord, el + de Discord funciona solo con el equipo abierto
 - 2026-10-08 · Lupa 0.51.1: el estado de Discord sale nada más abrir Lupa
 - 2026-10-08 · Lupa 0.51.0: unirse e invitar desde Discord, plazas del equipo y lo que estás haciendo
