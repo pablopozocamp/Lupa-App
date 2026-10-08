@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.47.0 (quién está dónde, y el equipo vuelve solo) · la actual
+### Versión 0.48.0 (Ejecutar va siempre al main) · la actual
+
+Novedades de la 0.48.0: si se pulsa Ejecutar en una clase sin main (como Saludo), Lupa busca en el proyecto el archivo con public static void main y ejecuta ese con todas sus clases, en vez de dar un error. Si hay varios pregunta cuál y lo recuerda; en C igual con la función main; si no hay ninguno lo dice abajo. Y en el panel de Proyecto los .java llevan una J, con el triangulito verde si tienen main.
+
+1291 pruebas en verde (1 nueva: saber si un código de Java o de C tiene main).
+
+### Versión 0.47.0 (quién está dónde, y el equipo vuelve solo)
 
 Novedades de la 0.47.0: en una sesión de equipo, las pestañas y los archivos del panel de Proyecto llevan un puntito del color de cada compañero que los tiene abiertos, con su nombre al pasar el ratón. Si se cae la conexión, Lupa vuelve a entrar sola (lo intenta unos tres minutos) y lo escrito mientras tanto se junta con lo de los demás; si quien se queda sin internet es el que invita, la sala se vuelve a abrir con el mismo código.
 
@@ -734,6 +740,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-08 · Lupa 0.48.0: Ejecutar va al main del proyecto y los .java llevan una J
 - 2026-10-08 · Lupa 0.47.0: quién está en cada pestaña y el equipo vuelve solo si se cae la conexión
 - 2026-10-08 · Lupa 0.46.0: Generar (Alt+Insert) y exportar el proyecto en .zip
 - 2026-10-08 · Lupa 0.45.0: cada archivo del panel de Proyecto con su icono
