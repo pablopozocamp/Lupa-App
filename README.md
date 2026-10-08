@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.48.0 (Ejecutar va siempre al main) · la actual
+### Versión 0.49.0 (traducir entre lenguajes) · la actual
+
+Novedades de la 0.49.0: Análisis › Traducir a otro lenguaje pasa un programa entre Python, Java, JavaScript y C y lo abre en una pestaña nueva para compararlos. Entiende variables, leer y escribir, if, while, for, funciones, listas y comentarios, y lo deja listo para ejecutar: tipos, clase con main, Scanner e import en Java; #include, printf, scanf y listas con contador en C; f-strings en Python. Lo que no sabe traducir queda como comentario para hacerlo a mano. Son reglas, sin inteligencia artificial.
+
+1297 pruebas en verde (6 nuevas: un programa de ejemplo en cada lenguaje se traduce a los cuatro, se ejecuta con la misma entrada y escribe lo mismo; y lo que no sabe se queda como comentario).
+
+### Versión 0.48.0 (Ejecutar va siempre al main)
 
 Novedades de la 0.48.0: si se pulsa Ejecutar en una clase sin main (como Saludo), Lupa busca en el proyecto el archivo con public static void main y ejecuta ese con todas sus clases, en vez de dar un error. Si hay varios pregunta cuál y lo recuerda; en C igual con la función main; si no hay ninguno lo dice abajo. Y en el panel de Proyecto los .java llevan una J, con el triangulito verde si tienen main.
 
@@ -740,6 +746,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-08 · Lupa 0.49.0: traducir un programa entre Python, Java, JavaScript y C
 - 2026-10-08 · Lupa 0.48.0: Ejecutar va al main del proyecto y los .java llevan una J
 - 2026-10-08 · Lupa 0.47.0: quién está en cada pestaña y el equipo vuelve solo si se cae la conexión
 - 2026-10-08 · Lupa 0.46.0: Generar (Alt+Insert) y exportar el proyecto en .zip
