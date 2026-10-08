@@ -25,7 +25,7 @@ Novedades de la 0.51.3: «Invitar al equipo» pasa a llamarse «Crear sala» y �
 
 ### Versión 0.51.2 (invitar desde Discord, sin más)
 
-Novedades de la 0.51.2: se quita la opción «Invitar por Discord» del menú; con una sesión de equipo abierta, el «+» del chat de Discord ya deja invitar a Lupa. 1301 pruebas en verde.
+Novedades de la 0.51.2: se quita la opción «Invitar por Discord» del menú; con una sesión de equipo abierta, el «+» del chat de Discord ya deja invitar a Lupa. Además, «Invitar al equipo» pasa a llamarse «Crear sala» y «Unirse a una sesión», «Unirse a una sala». 1301 pruebas en verde.
 
 ### Versión 0.51.1 (Discord al momento)
 
