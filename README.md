@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.42.0 (el equipo ve el proyecto entero) · la actual
+### Versión 0.43.0 (programas de varias clases) · la actual
+
+Novedades de la 0.43.0: Ejecutar ya entiende los programas de varias clases y archivos. En Java, si el Main usa la clase Saludo de otro archivo, Lupa la encuentra y las compila juntas, con paquetes (src/main/java/…), sin paquete o con clases abiertas en otra pestaña aunque no estén guardadas. En Python, import saludo encuentra saludo.py; en JavaScript, require('./saludo') o import encuentran los demás archivos; en C, un main.c que usa saludo.c y saludo.h se compila con ellos. El programa se ejecuta en la carpeta del proyecto (así encuentra sus datos.txt) y, si el error está en otra clase, la terminal dice su archivo y su línea con la ruta del proyecto. Lupa ejecuta una copia, así que el proyecto no se toca.
+
+1277 pruebas en verde (7 nuevas: Java con paquetes y con una clase sin guardar en otra pestaña, el error de otra clase con su ruta de verdad, Python, JavaScript y C de varios archivos).
+
+### Versión 0.42.0 (el equipo ve el proyecto entero)
 
 Novedades de la 0.42.0: al trabajar en equipo, los compañeros ya no ven solo las pestañas abiertas de quien comparte, sino todo su proyecto. En su panel de Proyecto salen todas las carpetas y archivos, con un botón arriba para pasar de «Mi proyecto» al del compañero, y el buscador filtra por nombre. Con doble clic abren cualquier archivo en una pestaña del equipo (a quien comparte se le abre de fondo, sin cambiarle la pestaña). Ctrl+S guarda en el ordenador de quien comparte, que es donde están los archivos. La lista se pone al día sola si se crean o borran archivos, y los abiertos salen en negrita. Solo se pueden abrir archivos de texto de dentro de la carpeta del proyecto. Todos tienen que tener la 0.42 para trabajar juntos.
 
@@ -700,6 +706,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-08 · Lupa 0.43.0: ejecutar programas de varias clases y archivos
 - 2026-10-07 · Lupa 0.42.0: el equipo ve el proyecto entero y abre cualquier archivo
 - 2026-10-07 · Lupa 0.41.0: panel de Proyecto con buscador, plantillas, copiar/pegar y arrastrar
 - 2026-10-07 · Lupa 0.40.0: se actualiza sola, sin descargar el zip
