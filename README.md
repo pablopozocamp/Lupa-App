@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.45.0 (cada archivo con su icono) · la actual
+### Versión 0.46.0 (Generar y exportar en .zip) · la actual
+
+Novedades de la 0.46.0: Generar (Alt+Insert) como en IntelliJ: en una clase de Java escribe el constructor, los getters y setters, el toString o el equals y hashCode con los atributos que se elijan (sin los static, sin setter para los final, sin repetir lo que ya existe y con el import java.util.Objects puesto solo). Y Exportar el proyecto en .zip, desde Archivo o el botón ⋯ del panel de Proyecto, listo para entregar en Moodle o Classroom sin target, .git, .idea ni los .class.
+
+1288 pruebas en verde (5 nuevas: leer los atributos de una clase, que todo lo generado compila, la clase donde está el cursor, el toString como el de IntelliJ y el .zip sin lo que sobra).
+
+### Versión 0.45.0 (cada archivo con su icono)
 
 Novedades de la 0.45.0: en el panel de Proyecto cada archivo lleva el icono de lo que es, como en IntelliJ. Los .java, por lo que tienen dentro: C clase, A abstracta, I interfaz, E enum, R record, @ anotación y ! excepción, con un triangulito verde si tienen main. En C y Python el triangulito marca el archivo con el main, y los .h tienen su H. HTML, CSS, JSON, Markdown, CSV, XML, TypeScript, C++, C#, PHP, imágenes, scripts y configuración tienen el suyo. El icono se actualiza solo al cambiar el archivo.
 
@@ -722,6 +728,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-08 · Lupa 0.46.0: Generar (Alt+Insert) y exportar el proyecto en .zip
 - 2026-10-08 · Lupa 0.45.0: cada archivo del panel de Proyecto con su icono
 - 2026-10-08 · Lupa 0.44.1: el Main encuentra las clases de archivos con minúscula
 - 2026-10-08 · Lupa 0.44.0: equipo por internet con código de sala
