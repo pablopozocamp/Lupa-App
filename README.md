@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.50.1 (Discord con imágenes) · la actual
+### Versión 0.51.0 (invita a programar desde Discord) · la actual
+
+Novedades de la 0.51.0: con una sesión de equipo abierta, se invita desde el «+» del chat de Discord (Invitar a Lupa) y el amigo entra solo en el equipo al pulsar Unirse, sin pasarse el código. El perfil enseña «En equipo (2 de 8)» con el botón Unirse, Lupa pregunta si se acepta a quien pide unirse, y Discord puede abrir Lupa si el amigo no la tiene abierta. Además, Discord enseña lo que se está haciendo: escribiendo, ejecutando, arreglando errores, paso a paso, ejercicios o ausente.
+
+1301 pruebas en verde (2 nuevas: la partida con su secreto y los avisos de unirse y de pedir unirse).
+
+### Versión 0.50.1 (Discord con imágenes)
 
 Novedades de la 0.50.1: el estado de Discord enseña el logo de Lupa y el icono del lenguaje, servidos desde esta web, sin subir nada a la aplicación de Discord. 1299 pruebas en verde.
 
@@ -756,6 +762,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-08 · Lupa 0.51.0: unirse e invitar desde Discord, plazas del equipo y lo que estás haciendo
 - 2026-10-08 · Lupa 0.50.1: el estado de Discord con imágenes desde la web
 - 2026-10-08 · Lupa 0.50.0: estado en Discord (Rich Presence)
 - 2026-10-08 · Lupa 0.49.0: traducir un programa entre Python, Java, JavaScript y C
