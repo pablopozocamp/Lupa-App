@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.46.0 (Generar y exportar en .zip) · la actual
+### Versión 0.47.0 (quién está dónde, y el equipo vuelve solo) · la actual
+
+Novedades de la 0.47.0: en una sesión de equipo, las pestañas y los archivos del panel de Proyecto llevan un puntito del color de cada compañero que los tiene abiertos, con su nombre al pasar el ratón. Si se cae la conexión, Lupa vuelve a entrar sola (lo intenta unos tres minutos) y lo escrito mientras tanto se junta con lo de los demás; si quien se queda sin internet es el que invita, la sala se vuelve a abrir con el mismo código.
+
+1290 pruebas en verde (2 nuevas: la diferencia entre dos textos y juntar lo escrito por los dos sin conexión).
+
+### Versión 0.46.0 (Generar y exportar en .zip)
 
 Novedades de la 0.46.0: Generar (Alt+Insert) como en IntelliJ: en una clase de Java escribe el constructor, los getters y setters, el toString o el equals y hashCode con los atributos que se elijan (sin los static, sin setter para los final, sin repetir lo que ya existe y con el import java.util.Objects puesto solo). Y Exportar el proyecto en .zip, desde Archivo o el botón ⋯ del panel de Proyecto, listo para entregar en Moodle o Classroom sin target, .git, .idea ni los .class.
 
@@ -728,6 +734,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-08 · Lupa 0.47.0: quién está en cada pestaña y el equipo vuelve solo si se cae la conexión
 - 2026-10-08 · Lupa 0.46.0: Generar (Alt+Insert) y exportar el proyecto en .zip
 - 2026-10-08 · Lupa 0.45.0: cada archivo del panel de Proyecto con su icono
 - 2026-10-08 · Lupa 0.44.1: el Main encuentra las clases de archivos con minúscula
