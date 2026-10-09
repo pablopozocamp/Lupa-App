@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.51.3 (menos errores falsos) · la actual
+### Versión 0.51.4 (el árbol del equipo siempre al día) · la actual
+
+Novedades de la 0.51.4: en una sala de equipo, lo que crea, borra o renombra quien tiene la sala les llega a los demás en un par de segundos, también en carpetas plegadas, si lo hace con otro programa o si es una carpeta vacía.
+
+1317 pruebas en verde (1 nueva: el proyecto del equipo lleva las carpetas vacías).
+
+### Versión 0.51.3 (menos errores falsos)
 
 Novedades de la 0.51.3: Lupa ya no marca como error código que está bien. En Java, un texto o comentario con «record», «class» o «enum» ya no estropea el análisis de un fragmento; en C, `#elif` ya no es una errata; en SQL se entienden `DELIMITER` y los procedimientos, funciones y disparadores con `BEGIN … END`, y una tabla llamada `form` ya no se confunde con FROM; y hay arreglos pequeños en Python (barra invertida con saltos de Windows) y JavaScript (métodos como `[Symbol.iterator]()`). 1316 pruebas en verde.
 
@@ -774,6 +780,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-09 · Lupa 0.51.4: el árbol del equipo siempre al día
 - 2026-10-08 · Lupa 0.51.3: menos errores falsos en los analizadores
 - 2026-10-08 · Lupa 0.51.2: sin el botón de invitar por Discord, el + de Discord funciona solo con el equipo abierto
 - 2026-10-08 · Lupa 0.51.1: el estado de Discord sale nada más abrir Lupa
