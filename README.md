@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.55.0 (programa desde un enunciado) · la actual
+### Versión 0.56.0 (enunciados con menú, insertar y borrar, y sus funciones) · la actual
+
+Novedades de la 0.56.0: el programa desde un enunciado entiende enunciados largos. Si el enunciado da el menú, se usa ese menú con sus textos, y cada opción hace lo que pide su apartado. Sabe trabajar con un vector de tamaño fijo y n posiciones ocupadas (insertar y borrar desplazando, avisos de lleno y vacío, posiciones desde 1). Si el enunciado nombra las funciones (pedir_entero, insertar_puntuacion…), organiza el programa con ellas, sin variables globales, con los límites comprobados y comentarios de fin de bloque.
+
+1340 pruebas en verde (1 nueva: el enunciado de las puntuaciones con su prueba de referencia, ejecutado en Python y en Java).
+
+### Versión 0.55.0 (programa desde un enunciado)
 
 Novedades de la 0.55.0: pega el enunciado de un ejercicio de examen en un editor vacío y Lupa lo deja como comentario y escribe debajo su programa en modo fantasma (Tab lo acepta). Entiende ejercicios de vectores (media, máximo y mínimo con su posición, búsqueda secuencial y binaria, burbuja, selección e inserción, menú con opciones…), de números (primo, factorial, Fibonacci, MCD, cifras, capicúa…) y de frases (vocales, palabras, palíndromo…), todo hecho a mano sin sum(), max() ni sort(), en el lenguaje que pida el enunciado. Lo que no entiende queda al final como comentario. Sin IA. Además, el traductor ya sabe de vectores.
 
@@ -804,6 +810,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-09 · Lupa 0.56.0: enunciados con su menú, insertar y borrar desplazando y las funciones que piden
 - 2026-10-09 · Lupa 0.55.0: programa desde un enunciado
 - 2026-10-09 · Lupa 0.54.0: errores mientras escribes, la bombilla de Alt+Intro y los parámetros al llamar
 - 2026-10-09 · Lupa 0.53.0: ir a la definición, autocompletar tus clases y pasar la sala
