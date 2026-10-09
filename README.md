@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.57.0 (enunciados con matrices y con clases) · la actual
+### Versión 0.58.0 (pantalla de inicio, Ctrl+K renovado y logo nuevo) · la actual
+
+Novedades de la 0.58.0: logo nuevo (la lupa con < > dentro). Pantalla de inicio con la pestaña vacía, con accesos para escribir, abrir un archivo o una carpeta, pegar un enunciado, ejercicios y crear una sala, y los proyectos recientes en tarjetas. La paleta Ctrl+K tiene iconos, lo usado hace poco arriba y busca también archivos del proyecto. Las pestañas llevan el icono de su lenguaje y un punto si hay cambios sin guardar, y la barra de abajo es más fina, con chapas que se pulsan (errores, lenguaje, nivel, línea).
+
+1342 pruebas en verde.
+
+### Versión 0.57.0 (enunciados con matrices y con clases)
 
 Novedades de la 0.57.0: el programa desde un enunciado entiende matrices («una matriz de 3 filas y 4 columnas»): pedirla, mostrarla en tabla, sumas y medias de filas y columnas, diagonales, traspuesta, máximo y mínimo con su posición, buscar y contar, en los cuatro lenguajes. También entiende clases («una clase Alumno con nombre, edad y nota»): atributos privados, constructor, getters, setters, toString y métodos como estaAprobado(), y un main con el array de objetos (media, el mejor, buscar por nombre, ordenar por un atributo, contar), en Java y en Python. El traductor ya sabe de matrices.
 
@@ -816,6 +822,8 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-09 · Lupa 0.58.0: pantalla de inicio, Ctrl+K renovado, pestañas con su lenguaje y barra de abajo con chapas
+- 2026-10-09 · Logo nuevo
 - 2026-10-09 · Lupa 0.57.0: enunciados con matrices y con clases
 - 2026-10-09 · Lupa 0.56.0: enunciados con su menú, insertar y borrar desplazando y las funciones que piden
 - 2026-10-09 · Lupa 0.55.0: programa desde un enunciado
