@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.51.4 (el árbol del equipo siempre al día) · la actual
+### Versión 0.52.0 (trabajar en equipo de verdad) · la actual
+
+Novedades de la 0.52.0: en la sala de un compañero, Ejecutar trae antes las clases y los archivos de su proyecto (el Main encuentra a Saludo aunque no esté abierta); con el clic derecho en su árbol se puede crear (clase de Java, Python, C, carpeta…), renombrar y borrar, y se hace en su ordenador (lo borrado va a su papelera); y las pestañas siguen al archivo si se renombra, o se quedan como copia si se borra.
+
+1318 pruebas en verde (1 nueva: el invitado pide la copia del proyecto, crea, renombra y borra, y le llega el nombre nuevo de una pestaña).
+
+### Versión 0.51.4 (el árbol del equipo siempre al día)
 
 Novedades de la 0.51.4: en una sala de equipo, lo que crea, borra o renombra quien tiene la sala les llega a los demás en un par de segundos, también en carpetas plegadas, si lo hace con otro programa o si es una carpeta vacía.
 
@@ -780,6 +786,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-09 · Lupa 0.52.0: el invitado ejecuta con las clases del anfitrión, crea, renombra y borra en su proyecto
 - 2026-10-09 · Lupa 0.51.4: el árbol del equipo siempre al día
 - 2026-10-08 · Lupa 0.51.3: menos errores falsos en los analizadores
 - 2026-10-08 · Lupa 0.51.2: sin el botón de invitar por Discord, el + de Discord funciona solo con el equipo abierto
