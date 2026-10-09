@@ -1,5 +1,13 @@
-<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0" y="0" width="24" height="24" rx="7" fill="#007AFF" />
-  <circle cx="10.5" cy="10.5" r="5" fill="none" stroke="#FFFFFF" stroke-width="2.2" />
-  <line x1="14.2" y1="14.2" x2="18.5" y2="18.5" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" />
+<svg width="24" height="24" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="f" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3D9BFF" />
+      <stop offset="1" stop-color="#0062E0" />
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="232" fill="url(#f)" />
+  <circle cx="452" cy="452" r="214" fill="none" stroke="#FFFFFF" stroke-width="72" />
+  <line x1="612" y1="612" x2="786" y2="786" stroke="#FFFFFF" stroke-width="96" stroke-linecap="round" />
+  <polyline points="404,372 324,452 404,532" fill="none" stroke="#FFFFFF" stroke-width="46" stroke-linecap="round" stroke-linejoin="round" />
+  <polyline points="500,372 580,452 500,532" fill="none" stroke="#FFFFFF" stroke-width="46" stroke-linecap="round" stroke-linejoin="round" />
 </svg>
