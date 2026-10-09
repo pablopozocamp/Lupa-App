@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.54.0 (errores mientras escribes, la bombilla y los parámetros) · la actual
+### Versión 0.55.0 (programa desde un enunciado) · la actual
+
+Novedades de la 0.55.0: pega el enunciado de un ejercicio de examen en un editor vacío y Lupa lo deja como comentario y escribe debajo su programa en modo fantasma (Tab lo acepta). Entiende ejercicios de vectores (media, máximo y mínimo con su posición, búsqueda secuencial y binaria, burbuja, selección e inserción, menú con opciones…), de números (primo, factorial, Fibonacci, MCD, cifras, capicúa…) y de frases (vocales, palabras, palíndromo…), todo hecho a mano sin sum(), max() ni sort(), en el lenguaje que pida el enunciado. Lo que no entiende queda al final como comentario. Sin IA. Además, el traductor ya sabe de vectores.
+
+1339 pruebas en verde (8 nuevas: el enunciado de las temperaturas, uno de números, uno de frases y uno con menú, escritos en Python, Java, JavaScript y C y ejecutados; lo que no sabe hacer; y distinguir un enunciado de un programa).
+
+### Versión 0.54.0 (errores mientras escribes, la bombilla y los parámetros)
 
 Novedades de la 0.54.0: los errores salen subrayados solos al dejar de escribir un momento, sin pulsar Analizar y sin mover el cursor (se quita en Ver); Alt+Intro es la bombilla, que en algo que no existe crea la clase, crea el método en su clase con sus parámetros o pone el import de ArrayList, Scanner o List; y al escribir miSaludo.decir( sale encima qué parámetros tiene, con el que toca resaltado.
 
@@ -798,6 +804,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-09 · Lupa 0.55.0: programa desde un enunciado
 - 2026-10-09 · Lupa 0.54.0: errores mientras escribes, la bombilla de Alt+Intro y los parámetros al llamar
 - 2026-10-09 · Lupa 0.53.0: ir a la definición, autocompletar tus clases y pasar la sala
 - 2026-10-09 · Lupa 0.52.0: el invitado ejecuta con las clases del anfitrión, crea, renombra y borra en su proyecto
