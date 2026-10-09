@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.56.0 (enunciados con menú, insertar y borrar, y sus funciones) · la actual
+### Versión 0.57.0 (enunciados con matrices y con clases) · la actual
+
+Novedades de la 0.57.0: el programa desde un enunciado entiende matrices («una matriz de 3 filas y 4 columnas»): pedirla, mostrarla en tabla, sumas y medias de filas y columnas, diagonales, traspuesta, máximo y mínimo con su posición, buscar y contar, en los cuatro lenguajes. También entiende clases («una clase Alumno con nombre, edad y nota»): atributos privados, constructor, getters, setters, toString y métodos como estaAprobado(), y un main con el array de objetos (media, el mejor, buscar por nombre, ordenar por un atributo, contar), en Java y en Python. El traductor ya sabe de matrices.
+
+1342 pruebas en verde (2 nuevas: una matriz escrita en los cuatro lenguajes y una cuadrada con sus diagonales; y una clase Alumno y otra Producto, ejecutadas).
+
+### Versión 0.56.0 (enunciados con menú, insertar y borrar, y sus funciones)
 
 Novedades de la 0.56.0: el programa desde un enunciado entiende enunciados largos. Si el enunciado da el menú, se usa ese menú con sus textos, y cada opción hace lo que pide su apartado. Sabe trabajar con un vector de tamaño fijo y n posiciones ocupadas (insertar y borrar desplazando, avisos de lleno y vacío, posiciones desde 1). Si el enunciado nombra las funciones (pedir_entero, insertar_puntuacion…), organiza el programa con ellas, sin variables globales, con los límites comprobados y comentarios de fin de bloque.
 
@@ -810,6 +816,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-09 · Lupa 0.57.0: enunciados con matrices y con clases
 - 2026-10-09 · Lupa 0.56.0: enunciados con su menú, insertar y borrar desplazando y las funciones que piden
 - 2026-10-09 · Lupa 0.55.0: programa desde un enunciado
 - 2026-10-09 · Lupa 0.54.0: errores mientras escribes, la bombilla de Alt+Intro y los parámetros al llamar
