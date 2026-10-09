@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.52.0 (trabajar en equipo de verdad) · la actual
+### Versión 0.53.0 (ir a la definición, autocompletar tus clases y pasar la sala) · la actual
+
+Novedades de la 0.53.0: Ctrl+clic (o Ctrl+B) en una clase, un método o una variable lleva a donde está escrita, aunque sea en otro archivo; al escribir miSaludo. sale la lista de atributos y métodos de tu clase (y de la que hereda); y si quien tiene la sala se va o cierra Lupa, la sala pasa a otro compañero con las pestañas del equipo y los demás se van a ella solos. En Java, Python y JavaScript.
+
+1321 pruebas en verde (3 nuevas: ir a la clase, al método y a la variable, lo heredado, los miembros de una clase y Python).
+
+### Versión 0.52.0 (trabajar en equipo de verdad)
 
 Novedades de la 0.52.0: en la sala de un compañero, Ejecutar trae antes las clases y los archivos de su proyecto (el Main encuentra a Saludo aunque no esté abierta); con el clic derecho en su árbol se puede crear (clase de Java, Python, C, carpeta…), renombrar y borrar, y se hace en su ordenador (lo borrado va a su papelera); y las pestañas siguen al archivo si se renombra, o se quedan como copia si se borra.
 
@@ -786,6 +792,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-09 · Lupa 0.53.0: ir a la definición, autocompletar tus clases y pasar la sala
 - 2026-10-09 · Lupa 0.52.0: el invitado ejecuta con las clases del anfitrión, crea, renombra y borra en su proyecto
 - 2026-10-09 · Lupa 0.51.4: el árbol del equipo siempre al día
 - 2026-10-08 · Lupa 0.51.3: menos errores falsos en los analizadores
