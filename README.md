@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.53.0 (ir a la definición, autocompletar tus clases y pasar la sala) · la actual
+### Versión 0.54.0 (errores mientras escribes, la bombilla y los parámetros) · la actual
+
+Novedades de la 0.54.0: los errores salen subrayados solos al dejar de escribir un momento, sin pulsar Analizar y sin mover el cursor (se quita en Ver); Alt+Intro es la bombilla, que en algo que no existe crea la clase, crea el método en su clase con sus parámetros o pone el import de ArrayList, Scanner o List; y al escribir miSaludo.decir( sale encima qué parámetros tiene, con el que toca resaltado.
+
+1331 pruebas en verde (10 nuevas: crear el método en otra clase y static con boolean, importar y crear clases, el cuerpo del método nuevo, las firmas y en qué llamada y parámetro está el cursor).
+
+### Versión 0.53.0 (ir a la definición, autocompletar tus clases y pasar la sala)
 
 Novedades de la 0.53.0: Ctrl+clic (o Ctrl+B) en una clase, un método o una variable lleva a donde está escrita, aunque sea en otro archivo; al escribir miSaludo. sale la lista de atributos y métodos de tu clase (y de la que hereda); y si quien tiene la sala se va o cierra Lupa, la sala pasa a otro compañero con las pestañas del equipo y los demás se van a ella solos. En Java, Python y JavaScript.
 
@@ -792,6 +798,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-09 · Lupa 0.54.0: errores mientras escribes, la bombilla de Alt+Intro y los parámetros al llamar
 - 2026-10-09 · Lupa 0.53.0: ir a la definición, autocompletar tus clases y pasar la sala
 - 2026-10-09 · Lupa 0.52.0: el invitado ejecuta con las clases del anfitrión, crea, renombra y borra en su proyecto
 - 2026-10-09 · Lupa 0.51.4: el árbol del equipo siempre al día
