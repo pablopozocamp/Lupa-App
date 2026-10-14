@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.58.0 (pantalla de inicio, Ctrl+K renovado y logo nuevo) · la actual
+### Versión 0.59.0 (ejecutar en equipo y un chat mejor) · la actual
+
+Novedades de la 0.59.0: en una sala, cuando alguien ejecuta, su programa sale en directo en la terminal de todos y cualquiera puede escribirle la entrada. El chat avisa de quién entra y sale y bajo cada nombre pone en qué archivo escribe, con sonidos suaves opcionales y un número en la barra de tareas si no estás mirando. En el chat, @nombre (Tab lo completa) o @todos marca el mensaje para esa persona, y el botón </> manda el código seleccionado, coloreado, que al pulsarlo lleva a su línea.
+
+1344 pruebas en verde (2 nuevas: los mensajes de la sala que llegan a todos y las menciones y el código del chat).
+
+### Versión 0.58.0 (pantalla de inicio, Ctrl+K renovado y logo nuevo)
 
 Novedades de la 0.58.0: logo nuevo (la lupa con < > dentro). Pantalla de inicio con la pestaña vacía, con accesos para escribir, abrir un archivo o una carpeta, pegar un enunciado, ejercicios y crear una sala, y los proyectos recientes en tarjetas. La paleta Ctrl+K tiene iconos, lo usado hace poco arriba y busca también archivos del proyecto. Las pestañas llevan el icono de su lenguaje y un punto si hay cambios sin guardar, y la barra de abajo es más fina, con chapas que se pulsan (errores, lenguaje, nivel, línea).
 
@@ -822,6 +828,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-14 · Lupa 0.59.0: ejecutar en equipo, avisos de quién entra y escribe, y chat con @ y código
 - 2026-10-09 · Lupa 0.58.0: pantalla de inicio, Ctrl+K renovado, pestañas con su lenguaje y barra de abajo con chapas
 - 2026-10-09 · Logo nuevo
 - 2026-10-09 · Lupa 0.57.0: enunciados con matrices y con clases
