@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.60.3 (Editar y Análisis ordenados) · la actual
+### Versión 0.61.0 (código desde un comentario, como Copilot) · la actual
+
+Novedades de la 0.61.0: escribe un comentario como `// crear un menú` o `-- consultar los usuarios mayores de edad`, pulsa Intro y el código sale en gris (texto fantasma) en Java, C, JavaScript y SQL. Tab lo escribe, Esc lo quita, Ctrl+→ acepta línea a línea y tu código no cambia hasta que aceptas. Entiende menús, funciones, validar datos, bucles, consultas SQL, conectar a la base de datos, gestionar errores, clases, ordenar, fórmulas, explicar una función y generar pruebas, y se adapta al archivo: usa tus funciones, tablas y columnas y no repite lo que ya existe. Con `// corregir el error` enseña los arreglos y Tab los aplica en todo el archivo. Todo sin internet, sin IA y sin claves.
+
+1399 pruebas en verde (53 nuevas: cada instrucción en los cuatro lenguajes dentro de un archivo de verdad, con Java compilado y SQL ejecutado; el menú y la consulta adaptados al archivo; no repetir una función; y corregir el error al pulsar Tab).
+
+### Versión 0.60.3 (Editar y Análisis ordenados)
 
 Arreglo de la 0.60.3: como Ver, los menús Editar y Análisis van en grupos (Buscar, Formato, Líneas y Plegar; Entender el código y Escribir código). Los atajos funcionan igual.
 
