@@ -36,7 +36,7 @@ const sections = [
       <>
         <ul>
           <li>
-            <strong>Windows</strong>: descarga <code>Lupa-windows.zip</code>, descomprímelo y abre{" "}
+            <strong>Windows</strong>: descarga <code>Lupa-Instalar.exe</code> y ábrelo (se instala y se abre solo). Si lo prefieres sin instalar, descarga <code>Lupa-windows.zip</code>, descomprímelo y abre{" "}
             <code>Lupa.exe</code>. Lleva Java dentro y todo lo necesario para ejecutar Java, Python,
             JavaScript, C y SQL: no hay que instalar nada más.
           </li>

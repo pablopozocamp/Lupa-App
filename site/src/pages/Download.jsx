@@ -8,10 +8,18 @@ const downloads = [
   {
     icon: DownloadIcon,
     title: "Windows",
-    detail: "Lupa-windows.zip · ~82 MB",
-    description: "Lleva Java incluido: descomprime y abre Lupa.exe. No hace falta instalar nada.",
-    href: LATEST_DOWNLOAD("Lupa-windows.zip"),
+    detail: "Lupa-Instalar.exe · ~65 MB",
+    description: "Un solo archivo: ábrelo y Lupa se instala y se abre. Lleva Java dentro, no pide administrador y luego se actualiza sola.",
+    href: LATEST_DOWNLOAD("Lupa-Instalar.exe"),
     cta: "Descargar para Windows",
+  },
+  {
+    icon: FileArchive,
+    title: "Windows portátil",
+    detail: "Lupa-windows.zip · ~82 MB",
+    description: "Sin instalar: descomprime la carpeta donde quieras (también en un USB) y abre Lupa.exe.",
+    href: LATEST_DOWNLOAD("Lupa-windows.zip"),
+    cta: "Descargar el .zip",
   },
   {
     icon: FileArchive,
@@ -25,7 +33,7 @@ const downloads = [
 
 const requirements = [
   { label: "Versión", value: "v0.59.0" },
-  { label: "Java", value: "Incluido (zip) o JDK 21 (.jar)" },
+  { label: "Java", value: "Incluido (Windows) o JDK 21 (.jar)" },
   { label: "Sistema", value: "Windows, macOS o Linux" },
   { label: "Precio", value: "Gratis" },
 ];
@@ -36,8 +44,8 @@ const faqs = [
     a: "Sí. Lupa.exe aún no está firmado digitalmente (la firma de código cuesta dinero y es un proyecto académico), así que Windows SmartScreen avisa por precaución. Pulsa «Más información» y luego «Ejecutar de todas formas».",
   },
   {
-    q: "¿Necesito instalar Java para usar el .zip de Windows?",
-    a: "No. Lupa-windows.zip lleva su propio Java empaquetado dentro, así que basta con descomprimirlo y abrir Lupa.exe.",
+    q: "¿Necesito instalar Java en Windows?",
+    a: "No. Lupa-Instalar.exe (y el .zip portátil) llevan su propio Java dentro. El instalador deja Lupa en el menú Inicio y en el escritorio, sin pedir permisos de administrador, y se desinstala desde Configuración › Aplicaciones como cualquier programa.",
   },
   {
     q: "¿Y si no uso Windows?",
@@ -68,7 +76,7 @@ export default function Download() {
             Gratis. Elige tu sistema, no hace falta registrarte en ningún sitio.
           </p>
 
-          <div className="mx-auto mt-10 grid max-w-3xl gap-6 sm:grid-cols-2">
+          <div className="mx-auto mt-10 grid max-w-5xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {downloads.map((dl) => (
               <div
                 key={dl.title}

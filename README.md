@@ -8,7 +8,7 @@ Analizador y corrector de código para quien empieza a programar: marca los erro
 
 En [Releases](https://github.com/pablopozocamp/Lupa-App/releases/latest):
 
-- **Windows:** `Lupa-windows.zip`. Descomprímelo y abre `Lupa.exe`. Lleva Java dentro: no hace falta instalar nada.
+- **Windows:** `Lupa-Instalar.exe`. Ábrelo y Lupa se instala (sin administrador) y se abre; deja su acceso en el menú Inicio y en el escritorio, y luego se actualiza sola. Lleva Java dentro. Si la quieres portátil, sin instalar: `Lupa-windows.zip`, descomprímelo y abre `Lupa.exe`.
 - **macOS o Linux:** `Lupa.jar`. Necesitas Java 21 o más nuevo: `java -jar Lupa.jar`.
 
 Si Windows avisa con «Windows protegió su PC», pulsa «Más información» y «Ejecutar de todas formas» (la app aún no está firmada).
