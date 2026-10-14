@@ -19,7 +19,11 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.60.0 (tema según la hora) · la actual
+### Versión 0.60.1 (Discord con el logo nuevo) · la actual
+
+Arreglo de la 0.60.1: el estado de Discord enseñaba el logo viejo porque Discord guarda las imágenes por su dirección; ahora Lupa la pide con otra dirección y sale el logo nuevo.
+
+### Versión 0.60.0 (tema según la hora)
 
 Novedades de la 0.60.0: el tema puede cambiar solo, claro de día y oscuro de noche, con un fundido suave (Ver › Tema según la hora). Las horas se eligen en Ajustes › Apariencia (por defecto, de 8:00 a 20:00). Además, Windows ya se descarga con un solo archivo, Lupa-Instalar.exe.
 
@@ -834,6 +838,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-14 · Lupa 0.60.1: Discord enseña el logo nuevo
 - 2026-10-14 · Lupa 0.60.0: tema según la hora
 - 2026-10-14 · Instalador de un solo archivo para Windows (Lupa-Instalar.exe)
 - 2026-10-14 · Lupa 0.59.0: ejecutar en equipo, avisos de quién entra y escribe, y chat con @ y código
