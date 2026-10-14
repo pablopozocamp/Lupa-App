@@ -19,7 +19,11 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.60.2 (el menú Ver ordenado) · la actual
+### Versión 0.60.3 (Editar y Análisis ordenados) · la actual
+
+Arreglo de la 0.60.3: como Ver, los menús Editar y Análisis van en grupos (Buscar, Formato, Líneas y Plegar; Entender el código y Escribir código). Los atajos funcionan igual.
+
+### Versión 0.60.2 (el menú Ver ordenado)
 
 Arreglo de la 0.60.2: el menú Ver tenía tantas opciones que no cabía en pantalla; ahora deja arriba lo de siempre y agrupa el resto en Apariencia, Ayudas del editor, Paneles y pestañas, Discord y Tamaño del código. Los atajos funcionan igual.
 
@@ -842,6 +846,7 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-14 · Lupa 0.60.3: Editar y Análisis en grupos
 - 2026-10-14 · Lupa 0.60.2: el menú Ver en grupos para que quepa
 - 2026-10-14 · Lupa 0.60.1: Discord enseña el logo nuevo
 - 2026-10-14 · Lupa 0.60.0: tema según la hora
