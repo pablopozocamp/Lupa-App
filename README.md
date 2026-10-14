@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.59.0 (ejecutar en equipo y un chat mejor) · la actual
+### Versión 0.60.0 (tema según la hora) · la actual
+
+Novedades de la 0.60.0: el tema puede cambiar solo, claro de día y oscuro de noche, con un fundido suave (Ver › Tema según la hora). Las horas se eligen en Ajustes › Apariencia (por defecto, de 8:00 a 20:00). Además, Windows ya se descarga con un solo archivo, Lupa-Instalar.exe.
+
+1346 pruebas en verde (2 nuevas: de día claro y de noche oscuro, también si el día pasa de medianoche).
+
+### Versión 0.59.0 (ejecutar en equipo y un chat mejor)
 
 Novedades de la 0.59.0: en una sala, cuando alguien ejecuta, su programa sale en directo en la terminal de todos y cualquiera puede escribirle la entrada. El chat avisa de quién entra y sale y bajo cada nombre pone en qué archivo escribe, con sonidos suaves opcionales y un número en la barra de tareas si no estás mirando. En el chat, @nombre (Tab lo completa) o @todos marca el mensaje para esa persona, y el botón </> manda el código seleccionado, coloreado, que al pulsarlo lleva a su línea.
 
@@ -828,6 +834,8 @@ Hecho en versiones anteriores:
 
 Cada cambio guardado en el código de la app (el código es privado; aquí solo se ve qué se hizo y cuándo), del más nuevo al más antiguo. Antes de la 0.11.0 el trabajo no se guardaba en Git, así que esas versiones solo aparecen en el historial de arriba.
 
+- 2026-10-14 · Lupa 0.60.0: tema según la hora
+- 2026-10-14 · Instalador de un solo archivo para Windows (Lupa-Instalar.exe)
 - 2026-10-14 · Lupa 0.59.0: ejecutar en equipo, avisos de quién entra y escribe, y chat con @ y código
 - 2026-10-09 · Lupa 0.58.0: pantalla de inicio, Ctrl+K renovado, pestañas con su lenguaje y barra de abajo con chapas
 - 2026-10-09 · Logo nuevo
