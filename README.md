@@ -17,11 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.66.3 (más formas de pedir las cosas)
+### 0.66.4 (restricciones y detalles de examen)
 
-Novedades de la 0.66.3, probadas con veinte enunciados nuevos redactados como en los exámenes (antes salían bien 2 de 20, ahora los 20): listas dadas con su nombre, también de textos («nombres = ["Ana", …]»); cambios con condición («sube un punto a las notas menores que 5», «sustituye los negativos por 0», «multiplica por 2 los pares»); «bajo cero»; la diferencia entre el mayor y el menor; «los 3 mayores»; cuántos están entre dos valores o tienen más de N letras; intercambiar el primero y el último; la media de solo algunos («de los mayores de edad»); el máximo y cuántas veces aparece; cuántas veces y en qué posiciones; mostrar del último al primero sin cambiar la lista o en una lista nueva; validar que sean positivos; preguntar cuántos datos hay; y dos listas dadas (el importe de una factura o unirlas).
-
-1492 pruebas en verde (20 nuevas: los veinte enunciados, ejecutados).
+Arreglo de la 0.66.4, con el enunciado de las 10 temperaturas: las viñetas bajo «Restricciones» («• max() y min() (debes encontrar los extremos manualmente…)», «• sum()…») ya no se toman como tareas; «el día (índice + 1)» cuenta los días desde 1; «muéstrala con dos decimales» redondea la media; «cuenta cuántos… y almacena esas temperaturas en un nuevo vector» cuenta y crea el vector; «indica en qué posición (índice)» da el índice; y si no la encuentra muestra el mensaje que pide el enunciado («Temperatura no encontrada»).
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
