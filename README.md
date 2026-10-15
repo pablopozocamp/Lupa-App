@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.63.0 (Python con vectores en paralelo) · la actual
+### Versión 0.64.0 (enunciados de examen enteros) · la actual
+
+Novedades de la 0.64.0: pega un enunciado de examen con vectores en paralelo (la tienda con nombres, precios y existencias; los alumnos con su nombre y su nota…) y sale en gris el programa entero, con una función por tarea (introducir y validar, mostrar con el valor total, buscar, ordenar con la burbuja moviendo todos los vectores…) y el main que las llama en el orden del enunciado. Si dice «entre 1 y 5», pide la cantidad y la valida; si deja elegir cómo ordenar, pregunta el criterio. En Python o en el lenguaje que pida el enunciado.
+
+1421 pruebas en verde (4 nuevas: el enunciado de la tienda resuelto y ejecutado, con el valor total, la búsqueda y la ordenación por precio sin separar los datos; el de los alumnos con cantidad variable, validaciones, búsqueda, burbuja y media; el mismo en Java, ejecutado; y reconocer los vectores del enunciado).
+
+### Versión 0.63.0 (Python con vectores en paralelo)
 
 Novedades de la 0.63.0: el texto fantasma de Python entiende los vectores en paralelo del archivo (varias listas del mismo tamaño en las que un índice es un mismo producto o alumno): introducir y validar, mostrar, buscar, ordenar con burbuja moviendo todos los datos juntos, el mayor y el menor, el total o la media, contar, modificar, insertar y borrar desplazando, el menú y el main, con bucles clásicos y los comentarios `# FIN` de clase. Además, un `if`, `for` o `def` sin nada dentro sale como error al escribir y Corregir pone `pass` (antes solo lo decía Python al ejecutar con «IndentationError»), y el código en gris de Python ya no deja bloques vacíos.
 
