@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.65.1 (enunciados mejor entendidos) · la actual
+### Versión 0.66.0 (las funciones que pide el enunciado) · la actual
+
+Novedades de la 0.66.0: si el enunciado nombra las funciones («`calcular_media(lista)`: devuelve la media…», «b) buscar(t, valor): devuelve la posición…»), el programa sale con esas funciones, esos nombres y esos parámetros, y un main que crea el vector, pide lo que haga falta (el valor a buscar, el límite…), las llama en orden y enseña lo que devuelven. Cada función se hace con las piezas de siempre (la media sin sum(), el máximo sin max(), contar, buscar, la burbuja…) y valida los datos si la explicación pone «entre 0 y 10».
+
+1457 pruebas en verde (4 nuevas: tres enunciados con funciones con nombre, ejecutados, y reconocer las funciones del enunciado).
+
+### Versión 0.65.1 (enunciados mejor entendidos)
 
 Arreglo de la 0.65.1, con el enunciado de la estación meteorológica: los días se cuentan desde el 1 cuando lo pide («el día 4»), «superior al promedio» cuenta los que pasan de la media, «suma 1.5 a cada elemento» cambia el vector entero (y no una posición), se valida que lo escrito sean números, y las restricciones («no está permitido usar sum()…») y las explicaciones («debido a un error…») ya no se toman como tareas.
 
