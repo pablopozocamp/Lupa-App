@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.61.0 (código desde un comentario, como Copilot) · la actual
+### Versión 0.62.0 (ayudas para quien empieza) · la actual
+
+Novedades de la 0.62.0: al escribir un comentario (por ejemplo `// cre`) sale una lista con lo que Lupa sabe escribir en ese lenguaje; Tab escribe la frase y el código aparece debajo en gris. Y si el código llama a una función que aún no existe, como `anadirProducto()`, Lupa lo dice en gris y Tab la crea vacía en su sitio, con sus parámetros y el cursor dentro. Los menús con opciones entre comillas ya llaman a sus funciones.
+
+1407 pruebas en verde (8 nuevas: la lista de frases según lo escrito, el lenguaje y el archivo; cada frase da código; crear la función que falta en Java (compilada), C y JavaScript; no proponer lo que ya existe ni lo de la biblioteca; y el menú que llama a sus funciones).
+
+### Versión 0.61.0 (código desde un comentario, como Copilot)
 
 Novedades de la 0.61.0: escribe un comentario como `// crear un menú` o `-- consultar los usuarios mayores de edad`, pulsa Intro y el código sale en gris (texto fantasma) en Java, C, JavaScript y SQL. Tab lo escribe, Esc lo quita, Ctrl+→ acepta línea a línea y tu código no cambia hasta que aceptas. Entiende menús, funciones, validar datos, bucles, consultas SQL, conectar a la base de datos, gestionar errores, clases, ordenar, fórmulas, explicar una función y generar pruebas, y se adapta al archivo: usa tus funciones, tablas y columnas y no repite lo que ya existe. Con `// corregir el error` enseña los arreglos y Tab los aplica en todo el archivo. Todo sin internet, sin IA y sin claves.
 
