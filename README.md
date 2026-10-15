@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.66.1 (pegar un enunciado siempre hace algo) · la actual
+### Versión 0.66.2 (más enunciados de examen) · la actual
+
+Arreglo de la 0.66.2, con el examen de las ventas: si el enunciado da los datos («[1200, 850, 0, 1500, …]»), la lista se crea con ellos y no se piden; «el promedio excluyendo los días con 0» no cuenta los 0; «del 1 al 14» numera los días desde 1; «crea una nueva lista llamada dias_buenos con las ventas que superaron los 1500» hace esa lista con append; y «al último día súmale un bono de 300» cambia solo ese elemento y enseña la lista.
+
+1472 pruebas en verde (1 nueva: el examen de las ventas, ejecutado).
+
+### Versión 0.66.1 (pegar un enunciado siempre hace algo)
 
 Arreglo de la 0.66.1: al pegar un enunciado a veces no pasaba nada, porque Lupa solo reconocía los de más de 80 letras que dijeran «programa», «ejercicio» o parecido. Ahora reconoce también los cortos («Calcular el factorial de un número introducido por teclado.»), los que empiezan por «Crea», «Haz», «Dado un vector…» o «Necesito que…», y los que se pegan en líneas propias de un archivo que ya tiene algo. «(sin usar max, min ni sum)» ya no hace que se ignore la frase entera, se cuentan los mayores de edad, y «el nombre y la edad de 3 personas… quién es el mayor» usa la edad. Si aun así no entiende lo que pide, pasa el enunciado a comentario y dice en gris cómo seguir.
 
