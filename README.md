@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.66.4 (restricciones y detalles de examen)
+### 0.67.0 (enunciados de texto y de matrices)
 
-Arreglo de la 0.66.4, con el enunciado de las 10 temperaturas: las viñetas bajo «Restricciones» («• max() y min() (debes encontrar los extremos manualmente…)», «• sum()…») ya no se toman como tareas; «el día (índice + 1)» cuenta los días desde 1; «muéstrala con dos decimales» redondea la media; «cuenta cuántos… y almacena esas temperaturas en un nuevo vector» cuenta y crea el vector; «indica en qué posición (índice)» da el índice; y si no la encuentra muestra el mensaje que pide el enunciado («Temperatura no encontrada»).
+Novedades de la 0.67.0, probadas con 23 enunciados de texto y de matrices (antes salían bien 11; ahora los 23, ejecutados). Texto: la palabra más larga o más corta, contar los dígitos, cambiar una letra por otra, las iniciales, contar las palabras se pida como se pida, las vocales con tilde y las frases dadas en el enunciado («texto = "…"»). Matrices: las que da el enunciado («m = [[1, 2], [3, 4]]»), la suma total junto a la de cada fila y columna, la fila o columna con la suma más grande, buscar un valor y decir en qué fila y columna está, y sumar o restar dos matrices.
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
