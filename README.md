@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.65.0 (cualquier ejercicio de vectores en Python) · la actual
+### Versión 0.65.1 (enunciados mejor entendidos) · la actual
+
+Arreglo de la 0.65.1, con el enunciado de la estación meteorológica: los días se cuentan desde el 1 cuando lo pide («el día 4»), «superior al promedio» cuenta los que pasan de la media, «suma 1.5 a cada elemento» cambia el vector entero (y no una posición), se valida que lo escrito sean números, y las restricciones («no está permitido usar sum()…») y las explicaciones («debido a un error…») ya no se toman como tareas.
+
+1453 pruebas en verde (2 nuevas: el enunciado de la estación meteorológica ejecutado, y que sus restricciones no se toman como tareas).
+
+### Versión 0.65.0 (cualquier ejercicio de vectores en Python)
 
 Novedades de la 0.65.0: los enunciados de vectores entienden muchos más ejercicios típicos: quitar los repetidos, el segundo mayor, comprobar si está ordenado, desplazar una posición, operar dos vectores posición a posición, rellenar con aleatorios, leer hasta que se escriba un 0, las posiciones pares, el producto, el nombre más largo, el porcentaje de aprobados, cuántos son mayores que un número, todas las posiciones donde aparece un valor y mostrar el vector en una línea. Con posiciones ocupadas (o al insertar) el vector lleva su capacidad y su n, y en las matrices, el máximo o el mínimo de cada fila o columna.
 
