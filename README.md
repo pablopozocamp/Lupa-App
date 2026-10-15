@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.64.0 (enunciados de examen enteros) · la actual
+### Versión 0.65.0 (cualquier ejercicio de vectores en Python) · la actual
+
+Novedades de la 0.65.0: los enunciados de vectores entienden muchos más ejercicios típicos: quitar los repetidos, el segundo mayor, comprobar si está ordenado, desplazar una posición, operar dos vectores posición a posición, rellenar con aleatorios, leer hasta que se escriba un 0, las posiciones pares, el producto, el nombre más largo, el porcentaje de aprobados, cuántos son mayores que un número, todas las posiciones donde aparece un valor y mostrar el vector en una línea. Con posiciones ocupadas (o al insertar) el vector lleva su capacidad y su n, y en las matrices, el máximo o el mínimo de cada fila o columna.
+
+1451 pruebas en verde (30 nuevas: treinta enunciados típicos de vectores y matrices resueltos en Python, ejecutados y comprobados).
+
+### Versión 0.64.0 (enunciados de examen enteros)
 
 Novedades de la 0.64.0: pega un enunciado de examen con vectores en paralelo (la tienda con nombres, precios y existencias; los alumnos con su nombre y su nota…) y sale en gris el programa entero, con una función por tarea (introducir y validar, mostrar con el valor total, buscar, ordenar con la burbuja moviendo todos los vectores…) y el main que las llama en el orden del enunciado. Si dice «entre 1 y 5», pide la cantidad y la valida; si deja elegir cómo ordenar, pregunta el criterio. En Python o en el lenguaje que pida el enunciado.
 
