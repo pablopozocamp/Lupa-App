@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.62.0 (ayudas para quien empieza) · la actual
+### Versión 0.63.0 (Python con vectores en paralelo) · la actual
+
+Novedades de la 0.63.0: el texto fantasma de Python entiende los vectores en paralelo del archivo (varias listas del mismo tamaño en las que un índice es un mismo producto o alumno): introducir y validar, mostrar, buscar, ordenar con burbuja moviendo todos los datos juntos, el mayor y el menor, el total o la media, contar, modificar, insertar y borrar desplazando, el menú y el main, con bucles clásicos y los comentarios `# FIN` de clase. Además, un `if`, `for` o `def` sin nada dentro sale como error al escribir y Corregir pone `pass` (antes solo lo decía Python al ejecutar con «IndentationError»), y el código en gris de Python ya no deja bloques vacíos.
+
+1417 pruebas en verde (10 nuevas: cada pedido con los vectores de la tienda, dentro y fuera de main; la burbuja que mueve los tres vectores; llamar a la función que ya existe; validar como en los apuntes; crear los vectores; el programa de los alumnos de los apuntes escrito con comentarios y ejecutado; el bloque vacío detectado y arreglado; el menú de Python; y crear en Python la función que falta).
+
+### Versión 0.62.0 (ayudas para quien empieza)
 
 Novedades de la 0.62.0: al escribir un comentario (por ejemplo `// cre`) sale una lista con lo que Lupa sabe escribir en ese lenguaje; Tab escribe la frase y el código aparece debajo en gris. Y si el código llama a una función que aún no existe, como `anadirProducto()`, Lupa lo dice en gris y Tab la crea vacía en su sitio, con sus parámetros y el cursor dentro. Los menús con opciones entre comillas ya llaman a sus funciones.
 
