@@ -19,7 +19,13 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 Todo lo que ha ido cambiando en Lupa, de la versión más nueva a la más antigua. Las descargas de cada versión publicada están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
-### Versión 0.66.2 (más enunciados de examen) · la actual
+### Versión 0.66.3 (más formas de pedir las cosas) · la actual
+
+Novedades de la 0.66.3, probadas con veinte enunciados nuevos redactados como en los exámenes (antes salían bien 2 de 20, ahora los 20): listas dadas con su nombre, también de textos («nombres = ["Ana", …]»); cambios con condición («sube un punto a las notas menores que 5», «sustituye los negativos por 0», «multiplica por 2 los pares»); «bajo cero»; la diferencia entre el mayor y el menor; «los 3 mayores»; cuántos están entre dos valores o tienen más de N letras; intercambiar el primero y el último; la media de solo algunos («de los mayores de edad»); el máximo y cuántas veces aparece; cuántas veces y en qué posiciones; mostrar del último al primero sin cambiar la lista o en una lista nueva; validar que sean positivos; preguntar cuántos datos hay; y dos listas dadas (el importe de una factura o unirlas).
+
+1492 pruebas en verde (20 nuevas: los veinte enunciados, ejecutados).
+
+### Versión 0.66.2 (más enunciados de examen)
 
 Arreglo de la 0.66.2, con el examen de las ventas: si el enunciado da los datos («[1200, 850, 0, 1500, …]»), la lista se crea con ellos y no se piden; «el promedio excluyendo los días con 0» no cuenta los 0; «del 1 al 14» numera los días desde 1; «crea una nueva lista llamada dias_buenos con las ventas que superaron los 1500» hace esa lista con append; y «al último día súmale un bono de 300» cambia solo ese elemento y enseña la lista.
 
