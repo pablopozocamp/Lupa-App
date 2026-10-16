@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.67.5 (comentarios con varios pasos)
+### 0.67.6 (listas con N números)
 
-Comentarios con varios pasos: «# crea una lista y mete 6 numeros en ella y muestra la suma» ya no se queda en la primera parte. El comentario se parte en pasos (por «y», «luego», «después» o comas delante de un verbo) y cada paso sale con su código, uno detrás de otro. «Mete 6 números en la lista» pide los 6 con un bucle (o los genera al azar si dices «aleatorios»), en vez de lista.append(6), y «ordénalas y muéstralas» se refiere a la lista. Lo que no entiende queda como «# Falta: …».
+Arreglo de los comentarios: «# crea una lista con 20 numeros» ya no deja solo numeros = []: crea la lista y pide los 20 números con un bucle (o los genera al azar si dices «aleatorios»). «Crea un vector de 10 posiciones» sale como vector = [0] * 10, y «crea una lista llamada edades con 4 edades» usa ese nombre. Sigue valiendo todo lo de la 0.67.5: comentarios con varios pasos («crea una lista y mete 6 numeros en ella y muestra la suma»), cada uno con su código.
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
