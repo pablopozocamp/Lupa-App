@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.67.6 (listas con N números)
+### 0.67.7 (filtrar, analizar y picos)
 
-Arreglo de los comentarios: «# crea una lista con 20 numeros» ya no deja solo numeros = []: crea la lista y pide los 20 números con un bucle (o los genera al azar si dices «aleatorios»). «Crea un vector de 10 posiciones» sale como vector = [0] * 10, y «crea una lista llamada edades con 4 edades» usa ese nombre. Sigue valiendo todo lo de la 0.67.5: comentarios con varios pasos («crea una lista y mete 6 numeros en ella y muestra la suma»), cada uno con su código.
+Arreglo con otro examen de funciones (filtrar, analizar y detectar picos): el filtro entiende rangos con unidades («entre -50°C y 150°C, ambos inclusive»), «Nota: la función debe retornar estos tres valores» hace return media, maximo, posMaximo, «cuántas veces la diferencia absoluta entre dos mediciones consecutivas es mayor que el umbral» recorre el vector comparando cada dato con el siguiente, y el main pide los datos (si ninguna función lo hace) y pasa la lista filtrada a las funciones que la usan.
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
