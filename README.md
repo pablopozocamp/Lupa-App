@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.67.9 (exámenes tipo quinteto, de cualquier tema)
+### 0.68.0 (como en los apuntes del profe)
 
-Exámenes tipo quinteto, de cualquier tema: Lupa ya no reconoce solo el ejercicio del baloncesto, sino las partes que se repiten en todos los de ese estilo (Fórmula 1, cafetería, videojuegos, mecánicos, guardianes, cocina, biblioteca, gimnasio, parking…). Entiende los vectores con su tipo (y sus ejemplos), si van precargados o se piden, con qué empiezan («cero paradas y tres vidas»), y cada opción del menú: mostrar, sumar 1, una cantidad pedida o 1, 2 o 3, restar, vender (sumar a uno y restar de otro), cambiar un texto, y resúmenes con totales, mínimo, máximo, media, recaudación y cuántos siguen. Las reglas («al llegar a tres paradas», «acumula 15 o más», «llega a cero», «supera los 120») con su palabra (RETIRADO, AGOTADO, MUERTO…) y lo que bloquean («a menos que se reponga», «pero sí pagar»). Probado con 10 enunciados, ejecutados.
+Como en los apuntes del profe: Lupa ha aprendido de los seis cuadernos de Python del curso. El Python que escribe sigue su estilo (f-strings como f"Nota {i + 1}: " y f"{media:.2f}", nombres con guion bajo como pos_maximo, auxiliar en la burbuja, casefold() y strip() con los nombres, y validar con while: «Repite la nota (0 a 10)», «Escribe un entero mayor que 0»). Y los 30 ejercicios de los apuntes, con las pruebas que traen, salen bien (antes 7): cuenta atrás, minutos y segundos, descuentos, funciones sueltas como calcular_area o es_mayor_de_edad, primer y último carácter, cambiar guiones por espacios, listas y matrices dadas, aumentar un %, limpiar textos y rellenar una matriz con un contador.
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
