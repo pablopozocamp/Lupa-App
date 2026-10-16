@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.67.3 (enunciados escritos a mano)
+### 0.67.4 (decimales de verdad)
 
-Enunciados escritos a mano: si el enunciado del examen te lo dan en papel y lo vas escribiendo tú, Lupa lo reconoce igual que al pegarlo. Cuando terminas una línea (Intro) y te paras un momento, si lo escrito parece un enunciado sale en gris «¿Terminado? Pulsa Tab y Lupa escribe el programa». Tab lo pasa a comentario y escribe el programa debajo; si sigues escribiendo, el aviso se va solo. A mitad de una frase no sale nada.
+Decimales de verdad: cuando el enunciado pide «con dos decimales», el resultado sale como 84.50 (f"{media:.2f}") y no 84.5. Vale para la media, la máxima, la mínima y la suma, cada una con los decimales que vienen detrás de ella, o para todos con «todos los resultados con 2 decimales». Además, con el examen de la telemetría de Fórmula 1: «debe detenerse cuando introduzca un número negativo» pide hasta un negativo, avisa si no se ha escrito ninguno (sin dividir entre 0), «el total de vueltas» es cuántas hay, dice en qué vuelta fue la máxima y hace la lista de vueltas por debajo de la media. Los enunciados pegados con # delante de cada línea también se leen bien.
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
