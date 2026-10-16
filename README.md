@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.68.0 (como en los apuntes del profe)
+### 0.68.1 (exámenes de una tienda)
 
-Como en los apuntes del profe: Lupa ha aprendido de los seis cuadernos de Python del curso. El Python que escribe sigue su estilo (f-strings como f"Nota {i + 1}: " y f"{media:.2f}", nombres con guion bajo como pos_maximo, auxiliar en la burbuja, casefold() y strip() con los nombres, y validar con while: «Repite la nota (0 a 10)», «Escribe un entero mayor que 0»). Y los 30 ejercicios de los apuntes, con las pruebas que traen, salen bien (antes 7): cuenta atrás, minutos y segundos, descuentos, funciones sueltas como calcular_area o es_mayor_de_edad, primer y último carácter, cambiar guiones por espacios, listas y matrices dadas, aumentar un %, limpiar textos y rellenar una matriz con un contador.
+Exámenes de una tienda: diez enunciados de tienda al estilo del profe salen bien. Inventario con menú para vender y reponer (con AGOTADO y sin vender más de lo que hay), catálogo en vectores paralelos validando los datos y ordenado por burbuja, altas y bajas con capacidad y una variable n, carrito hasta el 0 con IVA y descuento, funciones con varias listas dadas (total de la compra, agotados, el más caro), ventas de la semana en una matriz, subir un 10 % los precios de más de 1 euro, ofertas en una lista nueva rebajada un 20 % y una función que comprueba códigos como «PRD-042» (longitud, cómo empieza y que acabe en dígitos).
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
