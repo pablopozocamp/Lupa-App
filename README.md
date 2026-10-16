@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.67.4 (decimales de verdad)
+### 0.67.5 (comentarios con varios pasos)
 
-Decimales de verdad: cuando el enunciado pide «con dos decimales», el resultado sale como 84.50 (f"{media:.2f}") y no 84.5. Vale para la media, la máxima, la mínima y la suma, cada una con los decimales que vienen detrás de ella, o para todos con «todos los resultados con 2 decimales». Además, con el examen de la telemetría de Fórmula 1: «debe detenerse cuando introduzca un número negativo» pide hasta un negativo, avisa si no se ha escrito ninguno (sin dividir entre 0), «el total de vueltas» es cuántas hay, dice en qué vuelta fue la máxima y hace la lista de vueltas por debajo de la media. Los enunciados pegados con # delante de cada línea también se leen bien.
+Comentarios con varios pasos: «# crea una lista y mete 6 numeros en ella y muestra la suma» ya no se queda en la primera parte. El comentario se parte en pasos (por «y», «luego», «después» o comas delante de un verbo) y cada paso sale con su código, uno detrás de otro. «Mete 6 números en la lista» pide los 6 con un bucle (o los genera al azar si dices «aleatorios»), en vez de lista.append(6), y «ordénalas y muéstralas» se refiere a la lista. Lo que no entiende queda como «# Falta: …».
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
