@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.67.2 (más exámenes con funciones)
+### 0.67.3 (enunciados escritos a mano)
 
-Arreglo con otro examen de funciones (el de las temperaturas del rack). Lupa entiende el enunciado aunque esté pegado como comentarios (# …) y con subapartados numerados; una función que «recorra el vector una sola vez y devuelva tres valores» sale con un solo bucle y return maximo, minimo, media; «un nuevo vector con las horas (las posiciones) en las que superó los 35» guarda las posiciones; y la lista de prueba que da el programa principal (datos_dia = [...]) es la que se usa en el if __name__ == "__main__".
+Enunciados escritos a mano: si el enunciado del examen te lo dan en papel y lo vas escribiendo tú, Lupa lo reconoce igual que al pegarlo. Cuando terminas una línea (Intro) y te paras un momento, si lo escrito parece un enunciado sale en gris «¿Terminado? Pulsa Tab y Lupa escribe el programa». Tab lo pasa a comentario y escribe el programa debajo; si sigues escribiendo, el aviso se va solo. A mitad de una frase no sale nada.
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
