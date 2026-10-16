@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.67.0 (enunciados de texto y de matrices)
+### 0.67.1 (exámenes con funciones llamadas)
 
-Novedades de la 0.67.0, probadas con 23 enunciados de texto y de matrices (antes salían bien 11; ahora los 23, ejecutados). Texto: la palabra más larga o más corta, contar los dígitos, cambiar una letra por otra, las iniciales, contar las palabras se pida como se pida, las vocales con tilde y las frases dadas en el enunciado («texto = "…"»). Matrices: las que da el enunciado («m = [[1, 2], [3, 4]]»), la suma total junto a la de cada fila y columna, la fila o columna con la suma más grande, buscar un valor y decir en qué fila y columna está, y sumar o restar dos matrices.
+Arreglo de la 0.67.0 con un examen de funciones: «Escribe una función llamada generar_temperaturas() que…» ahora sale bien. Lupa entiende las viñetas de debajo de cada función, una función que hace varias cosas a la vez (máximo y su día, mínimo y su día, media), los aleatorios con decimales en un rango («de 10.0 a 35.0»), filtrar con un parámetro («que superen dicho umbral») y el bloque if __name__ == "__main__" del programa principal.
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
