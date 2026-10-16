@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.67.7 (filtrar, analizar y picos)
+### 0.67.8 (llevar la cuenta con un menú)
 
-Arreglo con otro examen de funciones (filtrar, analizar y detectar picos): el filtro entiende rangos con unidades («entre -50°C y 150°C, ambos inclusive»), «Nota: la función debe retornar estos tres valores» hace return media, maximo, posMaximo, «cuántas veces la diferencia absoluta entre dos mediciones consecutivas es mayor que el umbral» recorre el vector comparando cada dato con el siguiente, y el main pide los datos (si ninguna función lo hace) y pasa la lista filtrada a las funciones que la usan.
+Llevar la cuenta con un menú, con el examen del quinteto de baloncesto: cuando el enunciado da los vectores con su tipo («- puntos: puntos acumulados (int)»), los datos precargados y un menú, Lupa escribe cada opción en su función con parámetros y un main: mostrar a todos con sus datos, sumar 1, 2 o 3 a uno elegido por su nombre (búsqueda secuencial sin distinguir mayúsculas), un resumen con totales, disponibles y el máximo, y reglas como «al llegar a cinco faltas queda ELIMINADO». Sin append, sum, max, index ni in. También se leen bien los enunciados comentados dos veces («# # …»).
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
