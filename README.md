@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.67.8 (llevar la cuenta con un menú)
+### 0.67.9 (exámenes tipo quinteto, de cualquier tema)
 
-Llevar la cuenta con un menú, con el examen del quinteto de baloncesto: cuando el enunciado da los vectores con su tipo («- puntos: puntos acumulados (int)»), los datos precargados y un menú, Lupa escribe cada opción en su función con parámetros y un main: mostrar a todos con sus datos, sumar 1, 2 o 3 a uno elegido por su nombre (búsqueda secuencial sin distinguir mayúsculas), un resumen con totales, disponibles y el máximo, y reglas como «al llegar a cinco faltas queda ELIMINADO». Sin append, sum, max, index ni in. También se leen bien los enunciados comentados dos veces («# # …»).
+Exámenes tipo quinteto, de cualquier tema: Lupa ya no reconoce solo el ejercicio del baloncesto, sino las partes que se repiten en todos los de ese estilo (Fórmula 1, cafetería, videojuegos, mecánicos, guardianes, cocina, biblioteca, gimnasio, parking…). Entiende los vectores con su tipo (y sus ejemplos), si van precargados o se piden, con qué empiezan («cero paradas y tres vidas»), y cada opción del menú: mostrar, sumar 1, una cantidad pedida o 1, 2 o 3, restar, vender (sumar a uno y restar de otro), cambiar un texto, y resúmenes con totales, mínimo, máximo, media, recaudación y cuántos siguen. Las reglas («al llegar a tres paradas», «acumula 15 o más», «llega a cero», «supera los 120») con su palabra (RETIRADO, AGOTADO, MUERTO…) y lo que bloquean («a menos que se reponga», «pero sí pagar»). Probado con 10 enunciados, ejecutados.
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
