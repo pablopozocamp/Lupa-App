@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.67.1 (exámenes con funciones llamadas)
+### 0.67.2 (más exámenes con funciones)
 
-Arreglo de la 0.67.0 con un examen de funciones: «Escribe una función llamada generar_temperaturas() que…» ahora sale bien. Lupa entiende las viñetas de debajo de cada función, una función que hace varias cosas a la vez (máximo y su día, mínimo y su día, media), los aleatorios con decimales en un rango («de 10.0 a 35.0»), filtrar con un parámetro («que superen dicho umbral») y el bloque if __name__ == "__main__" del programa principal.
+Arreglo con otro examen de funciones (el de las temperaturas del rack). Lupa entiende el enunciado aunque esté pegado como comentarios (# …) y con subapartados numerados; una función que «recorra el vector una sola vez y devuelva tres valores» sale con un solo bucle y return maximo, minimo, media; «un nuevo vector con las horas (las posiciones) en las que superó los 35» guarda las posiciones; y la lista de prueba que da el programa principal (datos_dia = [...]) es la que se usa en el if __name__ == "__main__".
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
