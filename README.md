@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.68.5 (como en las soluciones del profe)
+### 0.68.6 (apartados numerados)
 
-Como en las soluciones del profe: Lupa cierra cada bloque con su comentario (# FIN FOR, # FIN WHILE, # FIN IF / ELSE, # FIN FUNCIÓN), enseña las posiciones desde 1 (salvo que el enunciado hable de índices desde 0), parte el programa en funciones con un main() y # INICIO DEL PROGRAMA cuando el enunciado pide organizarlo en funciones, y escribe los print con comas si el enunciado prohíbe las f-strings. También entiende «entre 0 y 100» aunque antes ponga «Duración: entre 60 y 90 minutos», la hora en que se vendió menos, «súbeles a todos un 5 %», «si algún precio es menor o igual que 0, vuelve a pedirlo» y el mayor junto a «cuántos superan 20».
+Apartados numerados: como en las soluciones del profe, los títulos de los apartados van numerados y en mayúsculas (# 1. PEDIR LAS TEMPERATURAS, # 2. MOSTRAR LAS TEMPERATURAS…), y cada bloque se cierra con su comentario # FIN.
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
