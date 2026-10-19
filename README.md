@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.68.1 (exámenes de una tienda)
+### 0.68.2 (buscar el valor que da el enunciado)
 
-Exámenes de una tienda: diez enunciados de tienda al estilo del profe salen bien. Inventario con menú para vender y reponer (con AGOTADO y sin vender más de lo que hay), catálogo en vectores paralelos validando los datos y ordenado por burbuja, altas y bajas con capacidad y una variable n, carrito hasta el 0 con IVA y descuento, funciones con varias listas dadas (total de la compra, agotados, el más caro), ventas de la semana en una matriz, subir un 10 % los precios de más de 1 euro, ofertas en una lista nueva rebajada un 20 % y una función que comprueba códigos como «PRD-042» (longitud, cómo empieza y que acabe en dígitos).
+Buscar el valor que da el enunciado: si el enunciado dice «El día más caluroso fue de 27 grados. Busca en qué posición está ese valor», Lupa busca el 27 directamente, sin pedirlo por teclado, y muestra «El 27 está en la posición 6» (o que no está). Los recuentos con condición se leen mejor: «Temperaturas mayores que 23: 6» en vez de «que cumplen temperatura > 23».
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
