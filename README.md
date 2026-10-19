@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.68.3 (más enunciados de tienda)
+### 0.68.4 (los enunciados de tienda que faltaban)
 
-Más enunciados de tienda: en una prueba a ciegas con 15 enunciados nuevos, Lupa solo acertaba el 38 % de los apartados. Ahora entiende «pide cuántos productos», mensajes como «Si el total supera 50, muestra "Envío gratis"», qué día se vendió más, los modelos que puedes comprar con tu presupuesto, los productos con menos de 20 unidades y los agotados, ventas hasta -1 sin negativos, otro vector con el IVA y los dos vectores juntos, funciones como aplicar_descuento(precio, porcentaje), el resumen de un menú con el más caro y el total, el total de cada talla y de cada mes en una matriz, y pasar un nombre a mayúsculas sin dejarlo vacío. Y lo que no entiende lo deja como «# Falta» en vez de saltárselo sin avisar.
+Los 4 enunciados de tienda que faltaban de la prueba a ciegas: los 3 precios más baratos y si hay alguno repetido, puntos de fidelidad «por cada 10 euros se gana 1 punto» con su regalo, clientes en vectores paralelos con la edad entre 0 y 120 (cuántos son mayores de edad, la edad media con un decimal y el más joven) y un menú que añade al final, muestra y borra por nombre, con el número de «Salir» que da el enunciado.
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
