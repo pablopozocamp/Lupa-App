@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.68.6 (apartados numerados)
+### 0.68.7 (la caja de una tienda)
 
-Apartados numerados: como en las soluciones del profe, los títulos de los apartados van numerados y en mayúsculas (# 1. PEDIR LAS TEMPERATURAS, # 2. MOSTRAR LAS TEMPERATURAS…), y cada bloque se cierra con su comentario # FIN.
+La caja de una tienda: Lupa escribe una compra sin listas como la práctica de la papelería del profe. Pide el cliente y si es socio, cada producto con su precio y sus unidades (validados con while), calcula el importe de cada línea, el subtotal, las unidades y las líneas de 20 euros o más, aplica el descuento por tramos de la tabla del enunciado con if / elif / else, el descuento de socio y los gastos de preparación que se quitan con una condición, muestra el resumen con dos decimales y cobra hasta que llegue el dinero, con el cambio. Pasa la prueba de referencia del profe y sus pruebas obligatorias.
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
