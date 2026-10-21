@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.68.10 (más exámenes como el del almacén)
+### 0.68.11 (listas con los datos dados)
 
-Más exámenes como el del almacén: Lupa resuelve diez exámenes nuevos al estilo del examen del profe (biblioteca, notas, concesionario, farmacia, videojuegos, ropa, gimnasio, restaurante, ferretería y academia). Entiende los datos dichos en una frase, claves como ISBN o id, valores que deben estar entre 0 y 10, buscar por nombre sin distinguir mayúsculas, vender y reponer existencias, y estadísticas con media, totales y cuántos cumplen algo («cuestan menos de 20 euros», «tienen 0 ejemplares»).
+Listas con los datos dados: Lupa resuelve exámenes con listas paralelas que ya traen sus datos escritos y tareas en orden, como el de la empresa de logística. Muestra los productos en alerta (stock menor que 10), busca a mano el producto con más unidades, suma unidades a un producto buscado por su nombre y calcula el total con un acumulador, cada tarea en su función y un main que crea las listas.
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
