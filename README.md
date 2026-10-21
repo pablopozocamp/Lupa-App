@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.68.9 (el examen tal cual)
+### 0.68.10 (más exámenes como el del almacén)
 
-El examen tal cual: Lupa resuelve el examen del almacén pegando el enunciado sin tocar. Saca los vectores de la lista de datos (Código: número entero y único, Nombre: cadena de texto…), el menú de los apartados numerados más la opción Salir, deja MAX = 20 como única variable global y precarga 5 productos de prueba. Después hace el alta sin repetir código, el listado, la búsqueda secuencial, las dos burbujas con intercambiar_productos, la búsqueda en el almacén ordenado contando las comparaciones, la baja por código y las estadísticas.
+Más exámenes como el del almacén: Lupa resuelve diez exámenes nuevos al estilo del examen del profe (biblioteca, notas, concesionario, farmacia, videojuegos, ropa, gimnasio, restaurante, ferretería y academia). Entiende los datos dichos en una frase, claves como ISBN o id, valores que deben estar entre 0 y 10, buscar por nombre sin distinguir mayúsculas, vender y reponer existencias, y estadísticas con media, totales y cuántos cumplen algo («cuestan menos de 20 euros», «tienen 0 ejemplares»).
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
