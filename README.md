@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.68.7 (la caja de una tienda)
+### 0.68.8 (el almacén del examen)
 
-La caja de una tienda: Lupa escribe una compra sin listas como la práctica de la papelería del profe. Pide el cliente y si es socio, cada producto con su precio y sus unidades (validados con while), calcula el importe de cada línea, el subtotal, las unidades y las líneas de 20 euros o más, aplica el descuento por tramos de la tabla del enunciado con if / elif / else, el descuento de socio y los gastos de preparación que se quitan con una condición, muestra el resumen con dos decimales y cobra hasta que llegue el dinero, con el cambio. Pasa la prueba de referencia del profe y sus pruebas obligatorias.
+El almacén del examen: Lupa resuelve con vectores paralelos y un menú el examen del almacén del profe. Precarga los productos desde la tabla del enunciado, da de alta al final sin repetir el código y validando el nombre, el precio y el stock con while, da de baja por código desplazando todos los vectores, busca por código, ordena con la burbuja por cualquier campo (de menor a mayor o al revés) con una función que intercambia los productos en todos los vectores, busca en el almacén ordenado parándose antes y contando las comparaciones (o con búsqueda binaria) y muestra las estadísticas: el más caro, el más barato, el valor total y cuántos tienen poco stock.
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
