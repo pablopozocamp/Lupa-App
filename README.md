@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.70.0 (juegos con matrices)
+### 0.70.1 (juegos con matrices y ampliaciones)
 
-Juegos con matrices: además de las matrices con menú como la del aparcamiento, Lupa escribe juegos sobre una matriz. Buscaminas (destapar y contar las minas de alrededor), laberinto (mover al jugador sin salirse ni atravesar paredes hasta la salida), tres en raya (turnos, ganar por fila, columna o diagonal, y empate), hundir la flota (tocado, agua y disparos) y buscar el tesoro (intentos y pistas). Siempre con la matriz en el main, una función por opción, fila y columna desde 1 validadas, y print sencillo; cuando la partida termina, el menú deja de repetirse.
+Juegos con matrices: además de las matrices con menú como la del aparcamiento, Lupa escribe juegos sobre una matriz. Buscaminas (destapar y contar las minas de alrededor), laberinto (mover al jugador sin salirse ni atravesar paredes hasta la salida), tres en raya (turnos, ganar por fila, columna o diagonal, y empate), hundir la flota (tocado, agua y disparos) y buscar el tesoro (intentos y pistas). Siempre con la matriz en el main, una función por opción, fila y columna desde 1 validadas, y print sencillo; cuando la partida termina, el menú deja de repetirse. Desde la 0.70.1, las «AMPLIACIONES PROPUESTAS» (A, B, C…) del enunciado pasan a ser opciones nuevas del menú.
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
