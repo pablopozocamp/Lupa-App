@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.69.0 (matrices con menú)
+### 0.70.0 (juegos con matrices)
 
-Matrices con menú: Lupa resuelve exámenes de matrices como el del aparcamiento, con la matriz y sus datos en el main, una función por opción, la fila y la columna pedidas desde 1 y comprobadas con un while, y print sencillo, sin sum ni count. Entiende matrices de estados (libre y ocupada, letras, True y False o tres estados) y de números (ventas, notas, temperaturas): ocupar y liberar, cambiar o sumar en una celda, buscar la primera libre y ocuparla, y los cálculos por fila y por columna (contar, totales, medias, porcentaje, la fila con más libres, filas completas, máximo y mínimo con su posición, diagonal y traspuesta).
+Juegos con matrices: además de las matrices con menú como la del aparcamiento, Lupa escribe juegos sobre una matriz. Buscaminas (destapar y contar las minas de alrededor), laberinto (mover al jugador sin salirse ni atravesar paredes hasta la salida), tres en raya (turnos, ganar por fila, columna o diagonal, y empate), hundir la flota (tocado, agua y disparos) y buscar el tesoro (intentos y pistas). Siempre con la matriz en el main, una función por opción, fila y columna desde 1 validadas, y print sencillo; cuando la partida termina, el menú deja de repetirse.
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
