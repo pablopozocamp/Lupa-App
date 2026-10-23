@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.68.11 (listas con los datos dados)
+### 0.69.0 (matrices con menú)
 
-Listas con los datos dados: Lupa resuelve exámenes con listas paralelas que ya traen sus datos escritos y tareas en orden, como el de la empresa de logística. Muestra los productos en alerta (stock menor que 10), busca a mano el producto con más unidades, suma unidades a un producto buscado por su nombre y calcula el total con un acumulador, cada tarea en su función y un main que crea las listas.
+Matrices con menú: Lupa resuelve exámenes de matrices como el del aparcamiento, con la matriz y sus datos en el main, una función por opción, la fila y la columna pedidas desde 1 y comprobadas con un while, y print sencillo, sin sum ni count. Entiende matrices de estados (libre y ocupada, letras, True y False o tres estados) y de números (ventas, notas, temperaturas): ocupar y liberar, cambiar o sumar en una celda, buscar la primera libre y ocuparla, y los cálculos por fila y por columna (contar, totales, medias, porcentaje, la fila con más libres, filas completas, máximo y mínimo con su posición, diagonal y traspuesta).
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
