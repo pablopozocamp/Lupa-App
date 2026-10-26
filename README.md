@@ -17,9 +17,9 @@ Desde la 0.40.0, Lupa se actualiza sola: cuando hay una versión nueva, «Actual
 
 ## Versión actual
 
-### 0.71.0 (cabecera con buscador y tarjetas)
+### 0.72.0 (relaciones en una matriz)
 
-Una interfaz más limpia: en el centro de la cabecera hay un buscador de acciones, como Spotlight, que abre la paleta de comandos (Ctrl+K). Abrir, Explicar y Ejecutar van solo con su icono y el único botón de color es Analizar. Cuando no hay errores, el panel de Problemas enseña tarjetas con las líneas, las funciones, la complejidad media y los comentarios del código, y la palabra del día. Los paneles llevan los mismos márgenes y las carpetas recientes, su ruta corta.
+Relaciones en una matriz: Lupa resuelve ejercicios como el de la red social («Ana y Luis son amigos desde hace 5 años…») con una matriz de adyacencia simétrica, con el valor de cada relación (0 si no la hay) y la diagonal a 0. Consulta a una persona sin distinguir mayúsculas ni tener en cuenta los espacios, y muestra sus amigos con los años, cuántos son y la suma; avisa si la persona no tiene amigos o si no pertenece a la red. Con menú, también saca la matriz, quién tiene más amigos, la amistad más larga, los amigos en común, y añadir y quitar amistades. Sirve igual para distancias entre ciudades o compañeros de clase.
 
 Las versiones anteriores, con sus novedades y sus descargas, están en [Releases](https://github.com/pablopozocamp/Lupa-App/releases).
 
